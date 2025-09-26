@@ -74,7 +74,7 @@ export default function Navbar() {
                             <div className="d-none d-lg-flex header-right_menu">
                                 <nav className="main-menu">
                                     <ul>
-                                        <li className="has-children">
+                                        {/* <li className="has-children">
                                             <a href=" ">Home</a>
                                             <ul className="sub-menu">
                                                 <li>
@@ -87,6 +87,9 @@ export default function Navbar() {
                                                     <a href="index-3.html">Home Three</a>
                                                 </li>
                                             </ul>
+                                        </li> */}
+                                        <li>
+                                            <a href="/">HOME</a>
                                         </li>
                                         <li>
                                             <a href="/Aboutus">About</a>
@@ -188,15 +191,16 @@ export default function Navbar() {
             {/* <!-- mobile menu navigation start --> */}
             <nav>
                 <ul className="mobile-menu">
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                         <a href=" ">HOME</a>
                         <ul className="dropdown">
                             <li><a href="index.html">Home One </a></li>
                             <li><a href="index-2.html">Home Two</a></li>
                             <li><a href="index-3.html">Home Three</a></li>
                         </ul>
-                    </li>
-                    <li><a href="about.html">ABOUT</a></li>
+                    </li> */}
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/Aboutus">ABOUT</a></li>
                     <li className="menu-item-has-children">
                         <a href=" ">SERVICE</a>
                         <ul className="dropdown">
