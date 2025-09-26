@@ -68,7 +68,7 @@ export default function Navbar() {
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="about.html">About</a>
+                                            <a href="/Aboutus">About</a>
                                         </li>
                                         <li className="has-children">
                                             <a href=" ">Pages</a>
