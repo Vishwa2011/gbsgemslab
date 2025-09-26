@@ -1,134 +1,265 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Pagination, Autoplay } from "swiper/modules";
 export default function Home() {
   return (
     <div>
         <Navbar />
+{/* <Swiper
+  modules={[Pagination, Autoplay]}
+  pagination={{ clickable: true, el: ".slidertwo-pagination" }}
+  autoplay={{ delay: 3000 }}
+  loop={true}
+  className="slidertwo animation-style-02"
+>
+
+  <SwiperSlide>
+    <div className="slidertwo-shape1">
+       <div className="scene">
+                              <div className="shape shape-7"><img src="assets/images/slider/slidertwo-shape/shape-1.png" alt="Shape" /></div>
+                              <div className="shape shape-9"><img src="assets/images/slider/slidertwo-shape/shape-3.png" alt="Shape" /></div>
+                              <div className="shape shape-10" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-4.png" alt="Shape" /></div>
+                              <div className="shape shape-11" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-5.png" alt="Shape" /></div>
+                              <div className="shape shape-12" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-6.png" alt="Shape" /></div>
+                              <div className="shape shape-14"><img src="assets/images/slider/slidertwo-shape/shape-8.png" alt="Shape" /></div>
+                              <div className="shape shape-15" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-9.png" alt="Shape" /></div>
+                              <div className="shape shape-16"><img src="assets/images/slider/slidertwo-shape/shape-10.png" alt="Shape" /></div>
+                              <div className="shape shape-17"><img src="assets/images/slider/slidertwo-shape/shape-11.png" alt="Shape" /></div>
+                              <div className="shape shape-18" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-12.png" alt="Shape" /></div>
+                              <div className="shape shape-19"><img src="assets/images/slider/slidertwo-shape/shape-13.png" alt="Shape" /></div>
+                              <div className="shape shape-20"><img src="assets/images/slider/slidertwo-shape/shape-14.png" alt="Shape" /></div>
+                              <div className="shape shape-21" data-depth="0.06"><img src="assets/images/slider/slidertwo-shape/shape-15.png" alt="Shape" /></div>
+                          </div>
+    </div>
+ <div className="slidertwo-shape2">
+                          <div className="shape shape-6"><img src="assets/images/slider/slidertwo-shape/shape-2.png" alt="Shape" /></div>
+                          <div className="shape shape-8"><img src="assets/images/slider/slidertwo-shape/shape-17.png" alt="Shape" /></div>
+                          <div className="shape shape-13"><img src="assets/images/slider/slidertwo-shape/shape-7.png" alt="Shape" /></div>
+                      </div>
+                      <div className="slidertwo-shape3">
+                          <div className="shape shape-1"><img src="assets/images/slider/slidertwo-shape/shape-18.png" alt="Shape" /></div>
+                      </div>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-6 col-lg-4 order-lg-0 order-2">
+          <div className="slidertwo-leftimg">
+            <div className="img-one">
+              <img src="assets/images/slider/slider-2-1.png" alt="ShapeImage" />
+            </div>
+            <div className="img-two">
+              <img src="assets/images/slider/slider-2-3.png" alt="ShapeImage" />
+            </div>
+          </div>
+        </div>
+
+        <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1">
+          <div className="heading-one">
+            <span className="heading-one-subtitle gradient-text-1">We are Avers</span>
+            <h2 className="heading-one-title">Solution for <br /> Your Business</h2>
+            <p>When the musics over turn off the light</p>
+            <a href="contact.html" className="btn-style-one"><span>Read More</span></a>
+          </div>
+        </div>
+
+        <div className="col-6 col-lg-4 order-lg-0 order-2">
+          <div className="slidertwo-rightimg">
+            <div className="img-one"><img src="assets/images/slider/slider-2-2.png" alt="ShapeImage" /></div>
+            <div className="img-two"><img src="assets/images/slider/slider-2-4.png" alt="ShapeImage" /></div>
+            <div className="img-three"><img src="assets/images/slider/slider-2-5.png" alt="ShapeImage" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SwiperSlide>
+
+
+  <SwiperSlide>
+    <div className="slidertwo-shape1">
+       <div className="scene">
+                              <div className="shape shape-7"><img src="assets/images/slider/slidertwo-shape/shape-1.png" alt="Shape" /></div>
+                              <div className="shape shape-9"><img src="assets/images/slider/slidertwo-shape/shape-3.png" alt="Shape" /></div>
+                              <div className="shape shape-10" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-4.png" alt="Shape" /></div>
+                              <div className="shape shape-11" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-5.png" alt="Shape" /></div>
+                              <div className="shape shape-12" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-6.png" alt="Shape" /></div>
+                              <div className="shape shape-14"><img src="assets/images/slider/slidertwo-shape/shape-8.png" alt="Shape" /></div>
+                              <div className="shape shape-15" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-9.png" alt="Shape" /></div>
+                              <div className="shape shape-16"><img src="assets/images/slider/slidertwo-shape/shape-10.png" alt="Shape" /></div>
+                              <div className="shape shape-17"><img src="assets/images/slider/slidertwo-shape/shape-11.png" alt="Shape" /></div>
+                              <div className="shape shape-18" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-12.png" alt="Shape" /></div>
+                              <div className="shape shape-19"><img src="assets/images/slider/slidertwo-shape/shape-13.png" alt="Shape" /></div>
+                              <div className="shape shape-20"><img src="assets/images/slider/slidertwo-shape/shape-14.png" alt="Shape" /></div>
+                              <div className="shape shape-21" data-depth="0.06"><img src="assets/images/slider/slidertwo-shape/shape-15.png" alt="Shape" /></div>
+                          </div>
+    </div>
+ <div className="slidertwo-shape2">
+                          <div className="shape shape-6"><img src="assets/images/slider/slidertwo-shape/shape-2.png" alt="Shape" /></div>
+                          <div className="shape shape-8"><img src="assets/images/slider/slidertwo-shape/shape-17.png" alt="Shape" /></div>
+                          <div className="shape shape-13"><img src="assets/images/slider/slidertwo-shape/shape-7.png" alt="Shape" /></div>
+                      </div>
+                      <div className="slidertwo-shape3">
+                          <div className="shape shape-1"><img src="assets/images/slider/slidertwo-shape/shape-18.png" alt="Shape" /></div>
+                      </div>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-6 col-lg-4 order-lg-0 order-2">
+          <div className="slidertwo-leftimg">
+            <div className="img-one">
+              <img src="assets/images/slider/slider-2-1.png" alt="ShapeImage" />
+            </div>
+            <div className="img-two">
+              <img src="assets/images/slider/slider-2-3.png" alt="ShapeImage" />
+            </div>
+          </div>
+        </div>
+
+        <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1">
+          <div className="heading-one">
+            <span className="heading-one-subtitle gradient-text-1">We are Avers</span>
+            <h2 className="heading-one-title">Solution for <br /> Your Business</h2>
+            <p>When the musics over turn off the light</p>
+            <a href="contact.html" className="btn-style-one"><span>Read More</span></a>
+          </div>
+        </div>
+
+        <div className="col-6 col-lg-4 order-lg-0 order-2">
+          <div className="slidertwo-rightimg">
+            <div className="img-one"><img src="assets/images/slider/slider-2-2.png" alt="ShapeImage" /></div>
+            <div className="img-two"><img src="assets/images/slider/slider-2-4.png" alt="ShapeImage" /></div>
+            <div className="img-three"><img src="assets/images/slider/slider-2-5.png" alt="ShapeImage" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SwiperSlide>
+</Swiper> */}
+
+{/* Swiper Pagination */}
+<div className="swiper-pagination slidertwo-pagination"></div>
 
             {/* <!-- Slider Section start --> */}
-    <div className="slider-two overflow-hidden">
-        <div className="swiper slidertwo animation-style-02">
-            <div className="swiper-wrapper">
+      <div className="slider-two overflow-hidden">
+          <div className="swiper slidertwo animation-style-02">
+              <div className="swiper-wrapper">
 
-                <div className="swiper-slide">
-                    <div className="slidertwo-shape1">
-                        <div className="scene">
-                            <div className="shape shape-7"><img src="assets/images/slider/slidertwo-shape/shape-1.png" alt="Shape" /></div>
-                            <div className="shape shape-9"><img src="assets/images/slider/slidertwo-shape/shape-3.png" alt="Shape" /></div>
-                            <div className="shape shape-10" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-4.png" alt="Shape" /></div>
-                            <div className="shape shape-11" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-5.png" alt="Shape" /></div>
-                            <div className="shape shape-12" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-6.png" alt="Shape" /></div>
-                            <div className="shape shape-14"><img src="assets/images/slider/slidertwo-shape/shape-8.png" alt="Shape" /></div>
-                            <div className="shape shape-15" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-9.png" alt="Shape" /></div>
-                            <div className="shape shape-16"><img src="assets/images/slider/slidertwo-shape/shape-10.png" alt="Shape" /></div>
-                            <div className="shape shape-17"><img src="assets/images/slider/slidertwo-shape/shape-11.png" alt="Shape" /></div>
-                            <div className="shape shape-18" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-12.png" alt="Shape" /></div>
-                            <div className="shape shape-19"><img src="assets/images/slider/slidertwo-shape/shape-13.png" alt="Shape" /></div>
-                            <div className="shape shape-20"><img src="assets/images/slider/slidertwo-shape/shape-14.png" alt="Shape" /></div>
-                            <div className="shape shape-21" data-depth="0.06"><img src="assets/images/slider/slidertwo-shape/shape-15.png" alt="Shape" /></div>
-                        </div>
-                    </div>
-                    <div className="slidertwo-shape2">
-                        <div className="shape shape-6"><img src="assets/images/slider/slidertwo-shape/shape-2.png" alt="Shape" /></div>
-                        <div className="shape shape-8"><img src="assets/images/slider/slidertwo-shape/shape-17.png" alt="Shape" /></div>
-                        <div className="shape shape-13"><img src="assets/images/slider/slidertwo-shape/shape-7.png" alt="Shape" /></div>
-                    </div>
-                    <div className="slidertwo-shape3">
-                        <div className="shape shape-1"><img src="assets/images/slider/slidertwo-shape/shape-18.png" alt="Shape" /></div>
-                    </div>
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-6 col-lg-4 order-lg-0 order-2">
-                                <div className="slidertwo-leftimg">
-                                    <div className="img-one"><img src="assets/images/slider/slider-2-1.png" alt="ShapeImage" /></div>
-                                    <div className="img-two"><img src="assets/images/slider/slider-2-3.png" alt="ShapeImage" /></div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1">
-                                {/* <!-- Heading Start --> */}
-                                <div className="heading-one">
-                                    <span className="heading-one-subtitle gradient-text-1">We are Avers</span>
-                                    <h2 className="heading-one-title">Solution for <br/> Your Business</h2>
-                                    <p>When the musics over turn off the light</p>
-                                    <a href="contact.html" className="btn-style-one"><span>Read More</span></a>
-                                </div>
-                                {/* <!-- Heading End --> */}
-                            </div>
-                            <div className="col-6 col-lg-4 order-lg-0 order-2">
-                                <div className="slidertwo-rightimg">
-                                    <div className="img-one"><img src="assets/images/slider/slider-2-2.png" alt="ShapeImage" /></div>
-                                    <div className="img-two"><img src="assets/images/slider/slider-2-4.png" alt="ShapeImage" /></div>
-                                    <div className="img-three"><img src="assets/images/slider/slider-2-5.png" alt="ShapeImage" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                  <div className="swiper-slide">
+                      <div className="slidertwo-shape1">
+                          <div className="scene">
+                              <div className="shape shape-7"><img src="assets/images/slider/slidertwo-shape/shape-1.png" alt="Shape" /></div>
+                              <div className="shape shape-9"><img src="assets/images/slider/slidertwo-shape/shape-3.png" alt="Shape" /></div>
+                              <div className="shape shape-10" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-4.png" alt="Shape" /></div>
+                              <div className="shape shape-11" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-5.png" alt="Shape" /></div>
+                              <div className="shape shape-12" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-6.png" alt="Shape" /></div>
+                              <div className="shape shape-14"><img src="assets/images/slider/slidertwo-shape/shape-8.png" alt="Shape" /></div>
+                              <div className="shape shape-15" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-9.png" alt="Shape" /></div>
+                              <div className="shape shape-16"><img src="assets/images/slider/slidertwo-shape/shape-10.png" alt="Shape" /></div>
+                              <div className="shape shape-17"><img src="assets/images/slider/slidertwo-shape/shape-11.png" alt="Shape" /></div>
+                              <div className="shape shape-18" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-12.png" alt="Shape" /></div>
+                              <div className="shape shape-19"><img src="assets/images/slider/slidertwo-shape/shape-13.png" alt="Shape" /></div>
+                              <div className="shape shape-20"><img src="assets/images/slider/slidertwo-shape/shape-14.png" alt="Shape" /></div>
+                              <div className="shape shape-21" data-depth="0.06"><img src="assets/images/slider/slidertwo-shape/shape-15.png" alt="Shape" /></div>
+                          </div>
+                      </div>
+                      <div className="slidertwo-shape2">
+                          <div className="shape shape-6"><img src="assets/images/slider/slidertwo-shape/shape-2.png" alt="Shape" /></div>
+                          <div className="shape shape-8"><img src="assets/images/slider/slidertwo-shape/shape-17.png" alt="Shape" /></div>
+                          <div className="shape shape-13"><img src="assets/images/slider/slidertwo-shape/shape-7.png" alt="Shape" /></div>
+                      </div>
+                      <div className="slidertwo-shape3">
+                          <div className="shape shape-1"><img src="assets/images/slider/slidertwo-shape/shape-18.png" alt="Shape" /></div>
+                      </div>
+                      <div className="container-fluid">
+                          <div className="row">
+                              <div className="col-6 col-lg-4 order-lg-0 order-2">
+                                  <div className="slidertwo-leftimg">
+                                      <div className="img-one"><img src="assets/images/slider/slider-2-1.png" alt="ShapeImage" /></div>
+                                      <div className="img-two"><img src="assets/images/slider/slider-2-3.png" alt="ShapeImage" /></div>
+                                  </div>
+                              </div>
+                              <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1">
+                                  {/* <!-- Heading Start --> */}
+                                  <div className="heading-one">
+                                      <span className="heading-one-subtitle gradient-text-1">We are Avers</span>
+                                      <h2 className="heading-one-title">Solution for <br/> Your Business</h2>
+                                      <p>When the musics over turn off the light</p>
+                                      <a href="contact.html" className="btn-style-one"><span>Read More</span></a>
+                                  </div>
+                                  {/* <!-- Heading End --> */}
+                              </div>
+                              <div className="col-6 col-lg-4 order-lg-0 order-2">
+                                  <div className="slidertwo-rightimg">
+                                      <div className="img-one"><img src="assets/images/slider/slider-2-2.png" alt="ShapeImage" /></div>
+                                      <div className="img-two"><img src="assets/images/slider/slider-2-4.png" alt="ShapeImage" /></div>
+                                      <div className="img-three"><img src="assets/images/slider/slider-2-5.png" alt="ShapeImage" /></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
-                <div className="swiper-slide">
-                    <div className="slidertwo-shape1">
-                        <div className="scene">
-                            <div className="shape shape-7"><img src="assets/images/slider/slidertwo-shape/shape-1.png" alt="Shape" /></div>
-                            <div className="shape shape-9"><img src="assets/images/slider/slidertwo-shape/shape-3.png" alt="Shape" /></div>
-                            <div className="shape shape-10" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-4.png" alt="Shape" /></div>
-                            <div className="shape shape-11" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-5.png" alt="Shape" /> </div>
-                            <div className="shape shape-12" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-6.png" alt="Shape" /></div>
-                            <div className="shape shape-14"><img src="assets/images/slider/slidertwo-shape/shape-8.png" alt="Shape" /></div>
-                            <div className="shape shape-15" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-9.png" alt="Shape" /></div>
-                            <div className="shape shape-16"><img src="assets/images/slider/slidertwo-shape/shape-10.png" alt="Shape" /></div>
-                            <div className="shape shape-17"><img src="assets/images/slider/slidertwo-shape/shape-11.png" alt="Shape" /></div>
-                            <div className="shape shape-18" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-12.png" alt="Shape" /></div>
-                            <div className="shape shape-19"><img src="assets/images/slider/slidertwo-shape/shape-13.png" alt="Shape" /></div>
-                            <div className="shape shape-20"><img src="assets/images/slider/slidertwo-shape/shape-14.png" alt="Shape" /></div>
-                            <div className="shape shape-21" data-depth="0.06"><img src="assets/images/slider/slidertwo-shape/shape-15.png" alt="Shape" /></div>
-                        </div>
-                    </div>
-                    <div className="slidertwo-shape2">
-                        <div className="shape shape-6"><img src="assets/images/slider/slidertwo-shape/shape-2.png" alt="Shape" /></div>
-                        <div className="shape shape-8"><img src="assets/images/slider/slidertwo-shape/shape-17.png" alt="Shape" /></div>
-                        <div className="shape shape-13"><img src="assets/images/slider/slidertwo-shape/shape-7.png" alt="Shape" /></div>
-                    </div>
-                    <div className="slidertwo-shape3">
-                        <div className="shape shape-1"><img src="assets/images/slider/slidertwo-shape/shape-18.png" alt="Shape" /></div>
-                    </div>
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-6 col-lg-4 order-lg-0 order-2">
-                                <div className="slidertwo-leftimg">
-                                    <div className="img-one"><img src="assets/images/slider/slider-2-1.png" alt="ShapeImage" /></div>
-                                    <div className="img-two"><img src="assets/images/slider/slider-2-3.png" alt="ShapeImage" /></div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1">
-                                {/* <!-- Heading Start --> */}
-                                <div className="heading-one">
-                                    <span className="heading-one-subtitle gradient-text-1">We are Avers</span>
-                                    <h2 className="heading-one-title">Solution for <br/> Your Business</h2>
-                                    <p>When the musics over turn off the light</p>
-                                    <a href="contact.html" className="btn-style-one"><span>Read More</span></a>
-                                </div>
-                                {/* <!-- Heading End --> */}
-                            </div>
-                            <div className="col-6 col-lg-4 order-lg-0 order-2">
-                                <div className="slidertwo-rightimg">
-                                    <div className="img-one"><img src="assets/images/slider/slider-2-2.png" alt="ShapeImage" /></div>
-                                    <div className="img-two"><img src="assets/images/slider/slider-2-4.png" alt="ShapeImage" /></div>
-                                    <div className="img-three"><img src="assets/images/slider/slider-2-5.png" alt="ShapeImage" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                  <div className="swiper-slide">
+                      <div className="slidertwo-shape1">
+                          <div className="scene">
+                              <div className="shape shape-7"><img src="assets/images/slider/slidertwo-shape/shape-1.png" alt="Shape" /></div>
+                              <div className="shape shape-9"><img src="assets/images/slider/slidertwo-shape/shape-3.png" alt="Shape" /></div>
+                              <div className="shape shape-10" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-4.png" alt="Shape" /></div>
+                              <div className="shape shape-11" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-5.png" alt="Shape" /> </div>
+                              <div className="shape shape-12" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-6.png" alt="Shape" /></div>
+                              <div className="shape shape-14"><img src="assets/images/slider/slidertwo-shape/shape-8.png" alt="Shape" /></div>
+                              <div className="shape shape-15" data-depth="0.07"><img src="assets/images/slider/slidertwo-shape/shape-9.png" alt="Shape" /></div>
+                              <div className="shape shape-16"><img src="assets/images/slider/slidertwo-shape/shape-10.png" alt="Shape" /></div>
+                              <div className="shape shape-17"><img src="assets/images/slider/slidertwo-shape/shape-11.png" alt="Shape" /></div>
+                              <div className="shape shape-18" data-depth="0.08"><img src="assets/images/slider/slidertwo-shape/shape-12.png" alt="Shape" /></div>
+                              <div className="shape shape-19"><img src="assets/images/slider/slidertwo-shape/shape-13.png" alt="Shape" /></div>
+                              <div className="shape shape-20"><img src="assets/images/slider/slidertwo-shape/shape-14.png" alt="Shape" /></div>
+                              <div className="shape shape-21" data-depth="0.06"><img src="assets/images/slider/slidertwo-shape/shape-15.png" alt="Shape" /></div>
+                          </div>
+                      </div>
+                      <div className="slidertwo-shape2">
+                          <div className="shape shape-6"><img src="assets/images/slider/slidertwo-shape/shape-2.png" alt="Shape" /></div>
+                          <div className="shape shape-8"><img src="assets/images/slider/slidertwo-shape/shape-17.png" alt="Shape" /></div>
+                          <div className="shape shape-13"><img src="assets/images/slider/slidertwo-shape/shape-7.png" alt="Shape" /></div>
+                      </div>
+                      <div className="slidertwo-shape3">
+                          <div className="shape shape-1"><img src="assets/images/slider/slidertwo-shape/shape-18.png" alt="Shape" /></div>
+                      </div>
+                      <div className="container-fluid">
+                          <div className="row">
+                              <div className="col-6 col-lg-4 order-lg-0 order-2">
+                                  <div className="slidertwo-leftimg">
+                                      <div className="img-one"><img src="assets/images/slider/slider-2-1.png" alt="ShapeImage" /></div>
+                                      <div className="img-two"><img src="assets/images/slider/slider-2-3.png" alt="ShapeImage" /></div>
+                                  </div>
+                              </div>
+                              <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1">
+                                  {/* <!-- Heading Start --> */}
+                                  <div className="heading-one">
+                                      <span className="heading-one-subtitle gradient-text-1">We are Avers</span>
+                                      <h2 className="heading-one-title">Solution for <br/> Your Business</h2>
+                                      <p>When the musics over turn off the light</p>
+                                      <a href="contact.html" className="btn-style-one"><span>Read More</span></a>
+                                  </div>
+                                  {/* <!-- Heading End --> */}
+                              </div>
+                              <div className="col-6 col-lg-4 order-lg-0 order-2">
+                                  <div className="slidertwo-rightimg">
+                                      <div className="img-one"><img src="assets/images/slider/slider-2-2.png" alt="ShapeImage" /></div>
+                                      <div className="img-two"><img src="assets/images/slider/slider-2-4.png" alt="ShapeImage" /></div>
+                                      <div className="img-three"><img src="assets/images/slider/slider-2-5.png" alt="ShapeImage" /></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
-            </div>
+              </div>
 
-            {/* <!-- Swiper Pagination --> */}
-            <div className="swiper-pagination slidertwo-pagination"></div>
+              {/* <!-- Swiper Pagination --> */}
+              <div className="swiper-pagination slidertwo-pagination"></div>
 
-        </div>
-    </div>
+          </div>
+      </div>
     {/* <!-- Slider Section End --> */}
 
         {/* <!-- Strategy Section start --> */}

@@ -1,6 +1,27 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 
 export default function Navbar() {
+     useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector('.sticky-header');
+      if (window.scrollY > 50) {
+        header.classList.add('sticky');
+      } else {
+        header.classList.remove('sticky');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Run on mount in case page is already scrolled
+    handleScroll();
+
+    // Cleanup listener on unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
   return (
     <div>
        <header className="header-wrapper-two header-four sticky-header">
