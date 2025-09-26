@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -743,6 +744,131 @@ export default function Home() {
     </div>
     {/* <!-- Home Contact Form End --> */}
 
+        {/* <!-- Home Blog Section Start --> */}
+    <div class="section-margin blog-post-two scene">
+        <div class="container mb-n30">
+
+            <div class="row">
+                <div class="col-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+
+                    <div class="heading-one text-center">
+                        <span class="heading-one-subtitle">From Our Blog</span>
+                        <h2 class="heading-one-title">News & Updates</h2>
+                        <p>Kimod tempoer incididunt onomes sundo ritoma amar porem ipsum dolor sit amet, consectetur adipisicing</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1">
+
+                <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+
+                    <div class="blog-grid-single">
+                        <div class="blog-grid-image ">
+                            <a href="blog-details.html" class="blogpost-image"><img src="assets/images/blog/home-blog1.png" alt="BlogImage" /></a>
+                            <div class="blog-grid-image-thumb">
+                                <span class="date">14</span>
+                                <span class="text">Apr</span>
+                            </div>
+                        </div>
+                        <div class="blog-grid-content">
+                            <span class="subtitle">Business</span>
+                            <h4 class="title"><a href="blog-details.html">Dalia enim ad minim veniam quis nostrud exercitation</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+
+                    <div class="blog-grid-single">
+                        <div class="blog-grid-image">
+                            <a href="blog-details.html" class="blogpost-image"><img src="assets/images/blog/home-blog2.png" alt="BlogImage" /></a>
+                            <div class="blog-grid-image-thumb">
+                                <span class="date">14</span>
+                                <span class="text">Apr</span>
+                            </div>
+                        </div>
+                        <div class="blog-grid-content">
+                            <span class="subtitle">Business</span>
+                            <h4 class="title"><a href="blog-details.html">Dalia enim ad minim veniam quis nostrud exercitation</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
+
+                    <div class="blog-grid-single">
+                        <div class="blog-grid-image">
+                            <a href="blog-details.html" class="blogpost-image"><img src="assets/images/blog/home-blog3.png" alt="BlogImage" /></a>
+                            <div class="blog-grid-image-thumb">
+                                <span class="date">14</span>
+                                <span class="text">Apr</span>
+                            </div>
+                        </div>
+                        <div class="blog-grid-content">
+                            <span class="subtitle">Business</span>
+                            <h4 class="title"><a href="blog-details.html">Dalia enim ad minim veniam quis nostrud exercitation</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="shape shape-1 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+            <img src="assets/images/blog/shape/shape1.png" alt="Circle" />
+        </div>
+        <div class="shape shape-2" data-depth="0.06">
+            <img src="assets/images/blog/shape/shape2.png" alt="Circle" />
+        </div>
+        <div class="shape shape-3" data-depth="0.06">
+            <img src="assets/images/blog/shape/shape3.png" alt="Circle" />
+        </div>
+    </div>
+    {/* <!-- Home Blog Section End --> */}
+
+    {/* <!-- Newletter Section Start --> */}
+    <div class="newsletter">
+        <div class="newsletter-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <div class="newsletter-inner">
+
+                            <div class="heading-one wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+                                <span class="heading-one-subtitle">Subscribe Our Newsletter</span>
+                                <h2 class="heading-one-title">Get Regular Updats</h2>
+                                <p class="heading-one-text">Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipimod</p>
+                            </div>
+
+
+                            <form action="#" class="footer-widget-form wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+                                <input type="text" placeholder="Your email here" />
+                                <button><img src="assets/images/icon/icon-5.png" alt="IconImage" /></button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape shape-1">
+            <img src="assets/images/newsletter/shape1.png" alt="Circle" />
+        </div>
+        <div class="shape shape-2 wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+            <img src="assets/images/newsletter/shape2.png" alt="Circle" />
+        </div>
+    </div>
+    {/* <!-- Newletter Section End --> */}
+
+    {/* footer start  */}
+    <Footer />
+    {/* footer end  */}
 </div>
   )
 }
