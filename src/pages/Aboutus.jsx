@@ -52,12 +52,18 @@ const Aboutus = () => {
                     {/* <!-- Heading Start --> */}
                     <div className="heading-one">
                         <span className="heading-one-subtitle">We are Avers</span>
-                        <h2 className="heading-one-title">A Great Corporate Agency</h2>
+                        <h2 className="heading-one-title">About Us</h2>
 
                         <div className="about-two-text">
-                            <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor inci didunt ut labore et dolore.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna dtempor incin poddo patar jolkobita tumi.</p>
-                            <a href="contact.html" className="btn-style-one"><span>Learn More</span></a>
+                            <p style={{fontWeight:600, textAlign:'justify'}}>GBS Diamond & Gems Testing Laboratory – Rudraksh Research Center is providing its dedicated services from last 10 years. From Last 5 years we are into the research field of Gems & Rudraksh. We have setup our Gemological Laboratory Last Year. We visited all possible places to get more knowledge in the field of Research of Gems, Rudraksh and Diamonds. GBS deals in testing for All Kinds of Gems (Coral, Saphire, Emerald, Ruby, Moon Stone, Diamonds etc) and Rudraksh of all mukhis. We also Provide Certificate & Box Pack Gem & Rudraksh with every Certified Gem which can be confirmed from our website.</p>
+                            <p style={{textAlign:"justify"}}>Our Advanced Lab assures you to provide better report always. We test every product with all Latest & Quality Equipments which ensures that you’ll get reliable reports with satisfaction.</p>
+                      <p style={{textAlign:"justify"}} >
+                        We Don’t Sale any Gem, Rudraksh and related products !! We just Test them in our Well Established Lab and provide you report on basis of its quality. We also provide a certificate with all Tested Gems, Rudraksh and related product. This certificate can also be checked on our website to confirm the originality of it.
+                      </p>
+                      <ul>
+                        <li style={{listStyle:'inside'}}>Special Prices for Bulk Testing of Products.</li>
+                        <li style={{listStyle:'inside'}}>Special Brand Name Box Packing available</li>
+                      </ul>
                         </div>
                     </div>
                     {/* <!-- Heading End --> */}
@@ -68,7 +74,11 @@ const Aboutus = () => {
     {/* <!-- About Section Start --> */}
 
     {/* <!-- Funfact Section Start --> */}
-    <div className="section-padding funfact" data-bg-image="assets/images/funfact/funfact-bg.png">
+<div 
+  className="section-padding funfact" 
+  style={{ backgroundImage: "url('/assets/images/funfact/funfact-bg.png')" }}
+>
+
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
@@ -136,8 +146,8 @@ const Aboutus = () => {
                         {/* <!-- Heading Start --> */}
                         <div className="heading-one">
                             <span className="heading-one-subtitle">Design matters</span>
-                            <h2 className="heading-one-title">A Great Creative Development </h2>
-                            <p>Kimod tempoer incididunt onomes sundo ritoma amar porem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            <h2 className="heading-one-title">About GBS Gems </h2>
+                            <p>I also want to thank you for you swift, professional, informative and friendly service, it is refreshing and comforting to know that there are people out there that you can trust and who care about the service that they give as well the quality of the product that they sell.</p>
                         </div>
                         {/* <!-- Heading End --> */}
                         {/* <!-- About creative Tab Start --> */}
@@ -169,14 +179,14 @@ const Aboutus = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        {/* <!-- About Creation Tab End --> */}
+                        </div>     
                     </div>
                 </div>
             </div>
         </div>
     </div>
     {/* <!-- About Creative Section End --> */}
+    
 
     {/* <!-- Team Section Start --> */}
     <div className="section-padding team-bg gradient-1">
@@ -284,6 +294,9 @@ const Aboutus = () => {
         </div>
     </div>
     {/* <!-- Team Section End --> */}
+
+    
+    
 
     {/* <!-- Testimonial Section Start --> */}
     <div className="section-padding testimonial-two scene">
