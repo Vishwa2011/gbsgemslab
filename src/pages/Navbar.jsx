@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 export default function Navbar() {
      useEffect(() => {
     const handleScroll = () => {
@@ -63,7 +63,7 @@ export default function Navbar() {
                     <div className="flex-center justify-content-between">
                         {/* <!-- Header Logo Start --> */}
                         <div className="logo">
-                            <a href="index.html">
+                            <a href="/">
                                 <img className="logo-2" src="assets/images/logo-2.png" alt="logoImage" />
                             </a>
                         </div>
@@ -78,7 +78,7 @@ export default function Navbar() {
                                             <a href=" ">Home</a>
                                             <ul className="sub-menu">
                                                 <li>
-                                                    <a href="index.html">Home One</a>
+                                                    <a href="/">Home One</a>
                                                 </li>
                                                 <li>
                                                     <a href="index-2.html">Home Two</a>
@@ -92,9 +92,18 @@ export default function Navbar() {
                                             <a href="/">HOME</a>
                                         </li>
                                         <li>
-                                            <a href="/Aboutus">About</a>
+                                            <a href="/Aboutus">About Us</a>
                                         </li>
-                                        <li className="has-children">
+                                        <li>
+                                            <a href="/Services">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Verify">Verify Certificate</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Contact">Contact Us</a>
+                                        </li>
+                                        {/* <li className="has-children">
                                             <a href=" ">Pages</a>
                                             <ul className="sub-menu">
                                                 <li><a href="team.html">Team</a></li>
@@ -143,21 +152,21 @@ export default function Navbar() {
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.html">Contact</a></li> */}
                                     </ul>
                                 </nav>
                             </div>
                             {/* <!-- Header Menu End --> */}
 
                             {/* <!-- Header Actions Start --> */}
-                            <div className="header-right_actions flex-center">
-                                <div className="header-right_button header-button">
-                                    <a href="contact.html" className="btn-style-one"><span>Get A Quote</span></a>
+                            <div className="header-right_actions flex-center ">
+                                <div className="header-right_button header-button d-none d-lg-block">
+                                    <a href="Contact" className="btn-style-one"><span>Get A Quote</span></a>
                                 </div>
 
                                 <div className="hamburger d-block d-lg-none">
                                     {/* <!-- Mobile Menu Hambarger Action Button Start --> */}
-                                    <a className="header-action-btn header-action-btn-menu hamburger_button d-flex" href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
+                                    <a className="header-action-btn header-action-btn-menu hamburger_button d-flex" href="#/" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header" aria-controls="offcanvas-header">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -178,7 +187,7 @@ export default function Navbar() {
         <div className="offcanvas-header">
             {/* <!-- Header Logo Start --> */}
             <div className="logo">
-                <a href="index.html">
+                <a href="/">
                     <img src="assets/images/logo-2.png" alt="" />
                 </a>
             </div>
@@ -194,14 +203,18 @@ export default function Navbar() {
                     {/* <li className="menu-item-has-children">
                         <a href=" ">HOME</a>
                         <ul className="dropdown">
-                            <li><a href="index.html">Home One </a></li>
+                            <li><a href="/">Home One </a></li>
                             <li><a href="index-2.html">Home Two</a></li>
                             <li><a href="index-3.html">Home Three</a></li>
                         </ul>
                     </li> */}
                     <li><a href="/">HOME</a></li>
-                    <li><a href="/Aboutus">ABOUT</a></li>
-                    <li className="menu-item-has-children">
+                    <li><a href="/Aboutus">ABOUT US</a></li>
+                    <li><a href="/Services">SERVICES</a></li>
+                    <li><a href="/Verify">VERIFY CERTIFICATE</a></li>
+                    <li><a href="/Contact">CONTACT US</a></li>
+                    
+                    {/* <li className="menu-item-has-children">
                         <a href=" ">SERVICE</a>
                         <ul className="dropdown">
                             <li><a href="service.html">Service</a></li>
@@ -229,7 +242,7 @@ export default function Navbar() {
                     <li className="menu-item-has-children">
                         <a href="team.html">TEAM</a>
                     </li>
-                    <li><a href="contact.html">CONTACT US </a></li>
+                    <li><a href="contact.html">CONTACT US </a></li> */}
                 </ul>
             </nav>
             {/* <!-- mobile menu navigation end --> */}
