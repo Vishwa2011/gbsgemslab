@@ -4,6 +4,9 @@ import Aboutus from './pages/Aboutus';
 import { useEffect } from 'react';
 import { WOW } from 'wowjs';
 import 'animate.css';
+import Services from './pages/Services';
+import Verify from './pages/Verify';
+import Contact from './pages/Contact';
 
 function App() {
 
@@ -44,11 +47,14 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Aboutus' element={<Aboutus/>}/>
+        <Route path='/Services' element={<Services/>}/>
+        <Route path='/Verify' element={<Verify/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
       </Routes>
 
-       <a href=" " class="scroll-top show" id="scroll-top">
-        <i class="arrow-top fas fa-angle-double-up"></i>
-        <i class="arrow-bottom fas fa-angle-double-up"></i>
+       <a href=" " className="scroll-top show" id="scroll-top">
+        <i className="arrow-top fas fa-angle-double-up"></i>
+        <i className="arrow-bottom fas fa-angle-double-up"></i>
     </a>
     </>
   );

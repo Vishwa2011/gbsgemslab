@@ -1462,7 +1462,8 @@ hr {
 
 /* Header Four  */
 .header-four {
-  margin-top: 20px;
+  background-color: #fff;
+  padding-top: 20px;
   position: fixed;
   width: 100%;
   z-index: 999;
