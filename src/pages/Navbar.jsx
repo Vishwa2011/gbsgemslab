@@ -30,14 +30,14 @@ export default function Navbar() {
                 <div className="col-12">
                     <div className="header-top">
                         <div className="d-md-none d-flex align-items-center">
-                            <a className="header-top-link d-flex align-items-center gap-1 left-link" href="tel:+4733378901"><img src="assets/images/icon/social/social-icon-1.png" alt="" /></a>
-                            <a className="header-top-link d-flex align-items-center gap-1" href="mailto:hello@avers.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" /></a>
+                            <a className="header-top-link d-flex align-items-center gap-1 left-link" href="tel:+9157600020"><img src="assets/images/icon/social/social-icon-1.png" alt="" /></a>
+                            <a className="header-top-link d-flex align-items-center gap-1" href="mailto:info@gbsgemslab.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" /></a>
                         </div>
                         <span className="d-none d-md-block">
-                            <a className="header-top-link d-flex align-items-center gap-1" href="tel:+4733378901"><img src="assets/images/icon/social/social-icon-1.png" alt="" /> +880 1234 567 890</a>
+                            <a className="header-top-link d-flex align-items-center gap-1" href="tel:+9157600020"><img src="assets/images/icon/social/social-icon-1.png" alt="" /> +91-9157600020</a>
                         </span>
                         <span className="d-none d-md-block">
-                            <a className="header-top-link d-flex align-items-center gap-1" href="mailto:hello@avers.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" /> hello@avers.com</a>
+                            <a className="header-top-link d-flex align-items-center gap-1" href="mailto:info@gbsgemslab.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" />info@gbsgemslab.com</a>
                         </span>
                         <div>
                             <ul className="social-icon">

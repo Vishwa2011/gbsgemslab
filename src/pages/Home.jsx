@@ -558,8 +558,60 @@ export default function Home() {
       </div>
       {/* <!-- About Section Start --> */}
 
+    {/* <!-- Funfact Section Start --> */}
+    <div 
+  className="section-padding funfact" 
+  style={{ backgroundImage: "url('/assets/images/funfact/funfact-bg.png')" }}
+>
+
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                    {/* <!-- Heading Start --> */}
+                    <div className="heading-one">
+                        <span className="heading-one-subtitle">We are Avers</span>
+                        <h2 className="heading-one-title">We Are Leading The Industry</h2>
+                        <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor inci didunt ut labore et dolore.</p>
+                    </div>
+                    {/* <!-- Heading End --> */}
+                </div>
+                <div className="col-lg-6">
+                    <div className="about-counter">
+                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                            <div className="funfact-inner">
+                                <span className="odometer" data-count-to="20"></span>
+                            </div>
+                            <span className="about-counter-title">Worldwide <br /> Countries</span>
+                        </div>
+                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
+                            <div className="funfact-inner">
+                                <span className="odometer" data-count-to="50"></span>
+                            </div>
+                            <span className="about-counter-title">Popular <br /> Products</span>
+                        </div>
+                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                            <div className="funfact-inner">
+                                <span className="odometer" data-count-to="5"></span>
+                                <span className="niktext">K</span>
+                            </div>
+                            <span className="about-counter-title">Direct <br  /> Clients</span>
+                        </div>
+                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
+                            <div className="funfact-inner">
+                                <span className="odometer" data-count-to="80"></span>
+                                <span className="niktext">K</span>
+                            </div>
+                            <span className="about-counter-title">Successfull <br /> Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Funfact Section End --> */}
+
       {/* <!-- Service Two Section Start --> */}
-      <div className="service-two section-padding-bottom">
+      <div className="section-padding service-two section-padding-bottom">
         <div className="service-two-shape scene">
           <div className="shape shape-1" data-depth="0.08">
             <img src="assets/images/shape/shape-20.png" alt="Shape" />
