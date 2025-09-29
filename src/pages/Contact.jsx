@@ -39,28 +39,28 @@ export default function Contact() {
             <div className="row mb-n30">
                 <div className="col-md-6 mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                     <div className="contact-head">
-                        <p className="text">Kimod tempoer incididunt onomes sundo ritoma amar korem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor inci didunt o ritoma amar korem ipsum</p>
+                        <p className="text">For any inquiries about authentic gems, rudraksha, or our services, feel free to reach out to us. We are happy to guide you toward the right choice.</p>
                     </div>
                     <ul className="contact-info">
                         <li>
                             <div className="icon"><i className="fas fa-map-marker-alt"></i></div>
                             <div className="contact-info-content">
                                 <h3 className="title">Address</h3>
-                                <span className="text">20, Mounten Street, UK</span>
+                                <span className="text">15 – Vaishnavdevi Ideal Home, B R Park Road, <br/> Jahangirabad, Surat,Gujarat – 395005</span>
                             </div>
                         </li>
                         <li>
                             <div className="icon"><i className="fas fa-phone-alt"></i></div>
                             <div className="contact-info-content">
                                 <h3 className="title">Phone</h3>
-                                <span className="text"><a href="tel:+123456789">+123 456 789</a></span>
+                                <span className="text"><a href="tel:+9157600020">+91-9157600020</a></span>
                             </div>
                         </li>
                         <li>
                             <div className="icon"><i className="fas fa-envelope"></i></div>
                             <div className="contact-info-content">
                                 <h3 className="title">Email</h3>
-                                <span className="text"><a href="mailto:hello@avers.com">hello@avers.com</a></span>
+                                <span className="text"><a href="mailto:info@gbsgemslab.com">info@gbsgemslab.com</a></span>
                             </div>
                         </li>
                     </ul>
@@ -79,10 +79,10 @@ export default function Contact() {
                                 <input placeholder="Your phone" name="phone" />
                             </div>
                             <div className="col-lg-6 mb-3">
-                                <input placeholder="Subject" name="subject" />
+                                <input placeholder="How Can We Help?" name="How Can We Help?" />
                             </div>
                             <div className="col-12 mb-3">
-                                <textarea name="message" placeholder="Write your comment here"></textarea>
+                                <textarea name="message" placeholder="Write Your Message Here"></textarea>
                             </div>
                             <div className="col-12 text-left">
                                 <button className="btn btn-style-one" type="submit"> <span>Submit Now</span> </button>
@@ -109,7 +109,16 @@ export default function Contact() {
                                 <img src="assets/images/contact/map-icon.png" alt="Map-Icon" />
                             </div>
                             <div className="map-inner" style={{width: "100%"}}>
-                                <iframe src="https://maps.google.com/maps?width=100%25&amp;height=420&amp;hl=en&amp;q=london+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                              <iframe
+    src="https://maps.google.com/maps?width=100%25&height=420&hl=en&q=15%20Vaishnavdevi%20Ideal%20Home,%20B%20R%20Park%20Road,%20Jahangirabad,%20Surat,%20Gujarat%20395005+(My%20Business%20Name)&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+    width="100%"
+    height="420"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Business Location"
+  ></iframe>
                             </div>
                         </div>
                     </div>

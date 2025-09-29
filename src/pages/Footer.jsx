@@ -18,10 +18,10 @@ export default function Footer() {
                     <span className="heading-one-subtitle">
                       Subscribe Our Newsletter
                     </span>
-                    <h2 className="heading-one-title">Get Regular Updats</h2>
+                    <h2 className="heading-one-title">Spiritual Updates</h2>
                     <p className="heading-one-text">
-                      Kimod tempoer incididunt onomes sundo ritoma amar Lorem
-                      ipsum dolor sit amet, consectetur adipimod
+                       Get the latest updates on authentic gemstones, sacred rudraksha, 
+                and spiritual insights delivered directly to your inbox.
                     </p>
                   </div>
 
@@ -59,7 +59,7 @@ export default function Footer() {
        <div className="footer-two footer-two-bg">
         <div className="container">
             <div className="row mb-n30">
-                <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
+                <div className="col-lg-4 col-md-6 col-sm-6 mb-30">
                     {/* <!-- Footer Widget Start --> */}
                     <div className="footer-widget-two">
                         <div className="logo negative-margin">
@@ -68,9 +68,9 @@ export default function Footer() {
                             </a>
                         </div>
                         <ul className="footer-widget-two-list-icon">
-                            <li><i className="fas fa-map-marker-alt"></i> <span> 20 Bordeshi, Amin Bazar <br/> Savar, Dhaka 1348</span></li>
-                            <li><i className="fas fa-envelope"></i> <span>hello@egens.com</span> </li>
-                            <li><i className="fas fa-phone"></i><span>+123 456 7890</span> </li>
+                            <li><i className="fas fa-map-marker-alt"></i> <span>15 – Vaishnavdevi Ideal Home, B R Park Road, Jahangirabad, Surat,Gujarat – 395005</span></li>
+                            <li><i className="fas fa-envelope"></i> <span><a href="mailto:info@gbsgemslab.com" style={{color:'#54545f'}}>info@gbsgemslab.com</a></span> </li>
+                            <li><i className="fas fa-phone"></i><span><a href="tel:+9157600020" style={{color:'#54545f'}}>+91-9157600020</a></span> </li>
                         </ul>
                         <ul className="social-icon d-flex flex-start">
                             <li>
@@ -89,35 +89,33 @@ export default function Footer() {
                     </div>
                     {/* <!-- Footer Widget End --> */}
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
-                    {/* <!-- Footer Widget Start --> */}
+                <div className="col-lg-5 col-md-6 col-sm-6 mb-30">
+                  
                     <div className="footer-widget-two">
                         <div className="widget-list-wrapper">
                             <div className="widget-list-single">
-                                <h5 className="footer-widget-two-title">Links</h5>
+                                <h5 className="footer-widget-two-title">Quick Links</h5>
                                 <ul className="footer-widget-two-list">
-                                    <li><a href="contact.html">Customer</a></li>
-                                    <li><a href="contact.html">Visitor</a></li>
-                                    <li><a href="contact.html">Webmaster</a></li>
-                                    <li><a href="contact.html">Service</a></li>
-                                    <li><a href="contact.html">Career</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/Aboutus">About Us</a></li>
+                                    <li><a href="/Services">Services</a></li>
+                                    <li><a href="/Verify">Verify Certificate</a></li>
+                                    <li><a href="/Contact">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div className="widget-list-single">
-                                <h5 className="footer-widget-two-title">Help</h5>
+                                <h5 className="footer-widget-two-title">Policy</h5>
                                 <ul className="footer-widget-two-list">
-                                    <li><a href="contact.html">Support</a></li>
-                                    <li><a href="contact.html">Doc File</a></li>
-                                    <li><a href="contact.html">Forum</a></li>
-                                    <li><a href="contact.html">FAQ</a></li>
+                                    <li><a href="/">Privacy Policy</a></li>
+                                    <li><a href="/">Term & Conditions Policy</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    {/* <!-- Footer Widget End --> */}
+               
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
-                    {/* <!-- Footer Widget Start --> */}
+                {/* <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
+
                     <div className="footer-widget-two">
                         <h5 className="footer-widget-two-title">Recent Posts</h5>
                         <ul className="sidebar-blog">
@@ -137,8 +135,8 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    {/* <!-- Footer Widget End --> */}
-                </div>
+
+                </div> */}
                 <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
                     {/* <!-- Footer Widget Start --> */}
                     <div className="footer-widget-two">
@@ -200,13 +198,13 @@ export default function Footer() {
             <div className="row footer-two-copyright">
                 <div className="col-12 position-relative">
                     <div className="footer-two-copyright-inner">
-                        <p className="order-md-1 order-2">Designed with love by <span>© Jewel Khan</span></p>
+                        <p className="order-md-1 order-2">© Copyright | All Rights Reserved | Proudly Powered by <a href="https://successinnovativetechnologiespvtltd.com/" style={{color:'#54545f'}}>Success Innovative Technologies Pvt Ltd</a></p>
 
-                        <ul className="footer-two-bootm-list order-md-2 order-1">
+                        {/* <ul className="footer-two-bootm-list order-md-2 order-1">
                             <li><a href="contact.html">Terms &amp; Condition</a></li>
-                            <li><a href="contact.html">Privecy Policy</a></li>
+                            <li><a href="contact.html">Privacy Policy</a></li>
                             <li><a href="contact.html">Legal</a></li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>
