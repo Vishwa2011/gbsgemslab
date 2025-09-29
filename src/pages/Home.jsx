@@ -725,7 +725,7 @@ export default function Home() {
                     <span className="phone-icon">
                       <i className="fas fa-phone-alt"></i>
                     </span>
-                    <span className="phone-text">+91-9157600020</span>
+                    <span className="phone-text">+91 91576 00020</span>
                   </a>
 
                   <div className="support-shape-two">
@@ -1111,7 +1111,7 @@ export default function Home() {
                       <div className="details">
                         <h5 className="details-title">Call Us</h5>
                         <a href="tel:+9157600020" className="details-text">
-                          +91-9157600020
+                          +91 91576 00020
                         </a>
                       </div>
                     </li>

@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from "react";
 
 export default function Footer() {
+      const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
                   {/* <!-- Newletter Section Start --> */}
@@ -70,8 +71,8 @@ export default function Footer() {
                         <ul className="footer-widget-two-list-icon">
                             <li><i className="fas fa-map-marker-alt"></i> <span>15 – Vaishnavdevi Ideal Home, B R Park Road, Jahangirabad, Surat,Gujarat – 395005</span></li>
                             <li><i className="fas fa-envelope"></i> <span><a href="mailto:info@gbsgemslab.com" style={{color:'#54545f'}}>info@gbsgemslab.com</a></span> </li>
-                            <li><i className="fas fa-phone"></i><span><a href="tel:+9033600020" style={{color:'#54545f'}}>+91-9033600020</a></span> </li>
-                            <li><i className="fas fa-phone"></i><span><a href="tel:+9157600020" style={{color:'#54545f'}}>+91-9157600020</a></span> </li>
+                            <li><i className="fas fa-phone"></i><span><a href="tel:+9033600020" style={{color:'#54545f'}}>+91 90336 00020</a></span> </li>
+                            <li><i className="fas fa-phone"></i><span><a href="tel:+9157600020" style={{color:'#54545f'}}>+91 91576 00020</a></span> </li>
                         </ul>
                         <ul className="social-icon d-flex flex-start">
                             <li>
@@ -111,6 +112,34 @@ export default function Footer() {
                                     <li><a href="/Privacypolicy">Privacy Policy</a></li>
                                     <li><a href="/Termsandcondition">Term & Conditions Policy</a></li>
                                 </ul>
+                                 <div className="header-right_button header-button mt-2">
+        <button
+          className="btn-style-one"
+          onClick={() => setIsOpen(true)}
+        >
+          <span>Get A Quote</span>
+        </button>
+      </div>
+
+       {isOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h2>Request a Quote</h2>
+            <p>Please fill in your details and we will get back to you.</p>
+            
+            {/* Example form */}
+            <form>
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message"></textarea>
+              <button type="submit" className="btn-style-one">Submit</button>
+            </form>
+
+            <button className="close-btn " onClick={() => setIsOpen(false)}>X</button>
+          </div>
+        </div>
+      )}
+      
                             </div>
                         </div>
                     </div>

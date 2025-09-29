@@ -53,7 +53,7 @@ export default function Contact() {
                             <div className="icon"><i className="fas fa-phone-alt"></i></div>
                             <div className="contact-info-content">
                                 <h3 className="title">Phone</h3>
-                                <span className="text"><a href="tel:+9157600020">+91-9157600020</a></span>
+                                <span className="text"><a href="tel:+9157600020">+91 91576 00020</a></span>
                             </div>
                         </li>
                         <li>

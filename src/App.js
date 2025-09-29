@@ -62,7 +62,7 @@ function App() {
         <Route path='/BlogDetails' element={<BlogDetails/>}/>
       </Routes>
    <a 
-       href="https://wa.me/+91-9157600020"
+       href="https://wa.me/+91 91576 00020"
       target="_blank" 
       rel="noopener noreferrer"
       className="whatsapp-button"

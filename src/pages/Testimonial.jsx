@@ -5,44 +5,45 @@ import {  Autoplay } from "swiper/modules";
 
 
 export default function Testimonial() {
-  const testimonials = [
+const testimonials = [
   {
     text: "GBS Gems provided exceptional service and accurate gemstone testing. Highly recommended!",
-    name: "Juwel Khan",
-    desig: "Web Developer",
+    name: "Rahul Mehta",
+    desig: "Business Consultant",
     img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "The team’s expertise and professionalism made the process smooth and reliable.",
-    name: "Jenny Jess",
-    desig: "Designer",
-  img: "/assets/images/NewImg/user.jpg",
+    name: "Priya Sharma",
+    desig: "Jewellery Designer",
+    img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "Fast, trustworthy, and detailed reports. Truly a leader in gem testing services.",
-    name: "Swift Kayu",
-    desig: "Web Developer",
-     img: "/assets/images/NewImg/user.jpg",
+    name: "Arjun Patel",
+    desig: "Entrepreneur",
+    img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "Accurate analysis and excellent customer support. I’m impressed with their service!",
-    name: "Juwel Khan",
-    desig: "Web Developer",
-     img: "/assets/images/NewImg/user.jpg",
+    name: "Neha Verma",
+    desig: "Fashion Stylist",
+    img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "Professional guidance and reliable results every time. Highly satisfied with GBS Gems.",
-    name: "Jenny Jess",
-    desig: "Designer",
+    name: "Rakesh Iyer",
+    desig: "Gemstone Collector",
     img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "The reports were clear, detailed, and delivered on time. Exceptional experience!",
-    name: "Swift Kayu",
-    desig: "Web Developer",
-     img: "/assets/images/NewImg/user.jpg",
+    name: "Ananya Desai",
+    desig: "Interior Designer",
+    img: "/assets/images/NewImg/user.jpg",
   },
 ];
+
 
 
   return (

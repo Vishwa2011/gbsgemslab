@@ -34,7 +34,7 @@ export default function Navbar() {
                             <a className="header-top-link d-flex align-items-center gap-1" href="mailto:info@gbsgemslab.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" style={{borderRadius:'0px'}} /></a>
                         </div>
                         <span className="d-none d-md-block">
-                            <a className="header-top-link d-flex align-items-center gap-1" href="tel:+9033600020"><img src="assets/images/icon/social/social-icon-1.png" alt="" />+91-9033600020</a>
+                            <a className="header-top-link d-flex align-items-center gap-1" href="tel:+9033600020"><img src="assets/images/icon/social/social-icon-1.png" alt="" />+91 90336 00020</a>
                         </span>
                         <span className="d-none d-md-block">
                             <a className="header-top-link d-flex align-items-center gap-1" href="mailto:info@gbsgemslab.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" style={{borderRadius:'0px'}}/>info@gbsgemslab.com</a>
@@ -64,7 +64,7 @@ export default function Navbar() {
                         {/* <!-- Header Logo Start --> */}
                         <div className="logo">
                             <a href="/">
-                                <img className="logo-2" src="/assets/images/NewImg/LOGO.png" alt="logoImage" style={{width:'80px'}}/>
+                                <img className="logo-2" src="/assets/images/NewImg/LOGO.png" alt="logoImage" style={{width:'75px'}}/>
                             </a>
                         </div>
                         {/* <!-- Header Logo End --> */}
@@ -163,9 +163,9 @@ export default function Navbar() {
 
                             {/* <!-- Header Actions Start --> */}
                             <div className="header-right_actions flex-center ">
-                                <div className="header-right_button header-button d-none d-lg-block">
+                                {/* <div className="header-right_button header-button d-none d-lg-block">
                                     <a href="Contact" className="btn-style-one"><span>Get A Quote</span></a>
-                                </div>
+                                </div> */}
 
                                 <div className="hamburger d-block d-lg-none">
                                     {/* <!-- Mobile Menu Hambarger Action Button Start --> */}
@@ -191,7 +191,7 @@ export default function Navbar() {
             {/* <!-- Header Logo Start --> */}
             <div className="logo">
                 <a href="/">
-                    <img src="/assets/images/NewImg/LOGO.png" alt="" style={{width:'80px'}}/>
+                    <img src="/assets/images/NewImg/LOGO.png" alt="" style={{width:'75px'}}/>
                 </a>
             </div>
             {/* <!-- Header Logo End --> */}
