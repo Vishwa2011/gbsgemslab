@@ -10,37 +10,37 @@ export default function Testimonial() {
     text: "GBS Gems provided exceptional service and accurate gemstone testing. Highly recommended!",
     name: "Juwel Khan",
     desig: "Web Developer",
-    img: "assets/images/testimonial/user-2.png",
+    img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "The team’s expertise and professionalism made the process smooth and reliable.",
     name: "Jenny Jess",
     desig: "Designer",
-    img: "assets/images/testimonial/user-3.png",
+  img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "Fast, trustworthy, and detailed reports. Truly a leader in gem testing services.",
     name: "Swift Kayu",
     desig: "Web Developer",
-    img: "assets/images/testimonial/user-4.png",
+     img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "Accurate analysis and excellent customer support. I’m impressed with their service!",
     name: "Juwel Khan",
     desig: "Web Developer",
-    img: "assets/images/testimonial/user-2.png",
+     img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "Professional guidance and reliable results every time. Highly satisfied with GBS Gems.",
     name: "Jenny Jess",
     desig: "Designer",
-    img: "assets/images/testimonial/user-3.png",
+    img: "/assets/images/NewImg/user.jpg",
   },
   {
     text: "The reports were clear, detailed, and delivered on time. Exceptional experience!",
     name: "Swift Kayu",
     desig: "Web Developer",
-    img: "assets/images/testimonial/user-4.png",
+     img: "/assets/images/NewImg/user.jpg",
   },
 ];
 
