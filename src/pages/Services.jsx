@@ -30,7 +30,7 @@ export default function Services() {
     <div className="section-padding">
         <div className="container">
             <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n30">
-                <div className="col mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
+                <div className="col-lg-6 mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
                     <div className="service-single">
                         <div className="service-single-image">
                             <div className="service-single-image-thumb">
@@ -40,7 +40,7 @@ export default function Services() {
                                 <div className="icon">
                                     <img src="assets/images/icon/service/icon-2.png" alt="Icon" />
                                 </div>
-                                <h4 className="title">Business <br/> Automation</h4>
+                                <h4 className="title">Testing Gems  <br/> Stone</h4>
                             </div>
                         </div>
                         <div className="service-single-white">
@@ -48,13 +48,13 @@ export default function Services() {
                                 <div className="icon gradient-1">
                                     <img src="assets/images/icon/service/icon-1-white.png" alt="Icon" />
                                 </div>
-                                <span className="title">Business <br/> Automation</span>
-                                <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                                <span className="title">Testing Gems  <br/> Stone</span>
+                                <p style={{textAlign:"justify"}}>All Gemstones are Lab Tested & Certified. So, with each Gemstone, you will receive a Laboratory Report which guarantees the authenticity of the Gemstone you buy. Each gemstone is graded very carefully on the Quality parameters, so that the customer gets the best value for money. Since we are direct importers of gemstones, we do not have any middlemen involved and hence we are able to give the best quality gemstone at the best price</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className="col mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".2s">
+                <div className="col-lg-6 mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".2s">
                     <div className="service-single">
                         <div className="service-single-image">
                             <div className="service-single-image-thumb">
@@ -64,7 +64,7 @@ export default function Services() {
                                 <div className="icon">
                                     <img src="assets/images/icon/service/icon-2.png" alt="Icon" />
                                 </div>
-                                <h4 className="title">Market <br/> Research</h4>
+                                <h4 className="title">Market  <br/> Research</h4>
                             </div>
                         </div>
                         <div className="service-single-white">
@@ -73,12 +73,12 @@ export default function Services() {
                                     <img src="assets/images/icon/service/icon-1-white.png" alt="Icon" />
                                 </div>
                                 <span className="title">Market <br/> Research</span>
-                                <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                                <p style={{textAlign:"justify"}}>We testing Diamond Jewellery like test by clarity F L, I F, V V S I-V V S 2, V S 2, S I 1-V S 2, S I 1-S S 2, I 1, I 2, I 3 & test colour in D to Z, we also test nose pin, ring, earing, pendant, bracelet, bangle’s, necklace etc.</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className="col mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".3s">
+                <div className="col-lg-6 mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".3s">
                     <div className="service-single">
                         <div className="service-single-image">
                             <div className="service-single-image-thumb">
@@ -88,7 +88,7 @@ export default function Services() {
                                 <div className="icon">
                                     <img src="assets/images/icon/service/icon-3.png" alt="Icon" />
                                 </div>
-                                <h4 className="title">Critical <br/> Analysis</h4>
+                                <h4 className="title">Critical  <br/> Analysis</h4>
                             </div>
                         </div>
                         <div className="service-single-white">
@@ -97,12 +97,12 @@ export default function Services() {
                                     <img src="assets/images/icon/service/icon-1-white.png" alt="Icon" />
                                 </div>
                                 <span className="title">Critical <br/> Analysis</span>
-                                <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                                <p style={{textAlign:"justify"}}>Some times a higher valued Rudraksha (Gaurishankar Rudraksha or a Trijuti) are made by artificially joining two or three Rudraksha with the help of glue etc. In case of doubt such Rudraksha should be boiled in water for one to two hours. A sharp discoloration will take place at the joint in case of artificial Rudraksha.The test wherein the Rudraksha Bead dips in water (commonly known as water test) is not dependable. A fool proof method is to cut the Rudraksha bead horizontally. One will find the same number of compartments as that of the number of lines . However the drawback the bead gets destroyed.</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className="col mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".4s">
+                <div className="col-lg-6 mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".4s">
                     <div className="service-single">
                         <div className="service-single-image">
                             <div className="service-single-image-thumb">
@@ -112,7 +112,7 @@ export default function Services() {
                                 <div className="icon">
                                     <img src="assets/images/icon/service/icon-4.png" alt="Icon"  />
                                 </div>
-                                <h4 className="title">Risk <br/> Management</h4>
+                                <h4 className="title">Testing Rudraksh  <br/> Mala</h4>
                             </div>
                         </div>
                         <div className="service-single-white">
@@ -120,60 +120,13 @@ export default function Services() {
                                 <div className="icon gradient-1">
                                     <img src="assets/images/icon/service/icon-1-white.png" alt="Icon" />
                                 </div>
-                                <span className="title">Risk <br/> Management</span>
-                                <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                                <span className="title">Testing Rudraksh  <br/> Mala</span>
+                                <p style={{textAlign:"justify"}}>The range of Rudraksha Mala exported and supplied by us is made from genuine rudraksha provided in different mukhis and kanthas. Since long time, yogis have worn Rudraksha Mala in search of tranquility. To activate six senses and concentrate better, avail the rudraksha malas offered by us. These malas can be availed at the most affordable prices.Our prime vision is to provide utmost level of satisfaction to the clients. To accomplish the same, we offer superlative Incense sticks that are widely used for prayers & other religious purposes and for spreading fragrance, which creates a peaceful atmosphere.</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className="col mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".5s">
-                    <div className="service-single">
-                        <div className="service-single-image">
-                            <div className="service-single-image-thumb">
-                                <img src="assets/images/service/service4.png" alt="ServiceImage" />
-                            </div>
-                            <div className="service-single-image-content">
-                                <div className="icon">
-                                    <img src="assets/images/icon/service/icon-5.png" alt="Icon" />
-                                </div>
-                                <h4 className="title">Annual <br/> Reporting</h4>
-                            </div>
-                        </div>
-                        <div className="service-single-white">
-                            <a href="service-details.html" className="service-single-white-content">
-                                <div className="icon gradient-1">
-                                    <img src="assets/images/icon/service/icon-1-white.png" alt="Icon" />
-                                </div>
-                                <span className="title">Annual <br/> Reporting</span>
-                                <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className="col mb-30 wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".6s">
-                    <div className="service-single">
-                        <div className="service-single-image">
-                            <div className="service-single-image-thumb">
-                                <img src="assets/images/service/service5.png" alt="ServiceImage" />
-                            </div>
-                            <div className="service-single-image-content">
-                                <div className="icon">
-                                    <img src="assets/images/icon/service/icon-6.png" alt="Icon" />
-                                </div>
-                                <h4 className="title">Human <br/> Resourses</h4>
-                            </div>
-                        </div>
-                        <div className="service-single-white">
-                            <a href="service-details.html" className="service-single-white-content">
-                                <div className="icon gradient-1">
-                                    <img src="assets/images/icon/service/icon-1-white.png" alt="Icon" />
-                                </div>
-                                <span className="title">Human <br/> Resourses</span>
-                                <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>
