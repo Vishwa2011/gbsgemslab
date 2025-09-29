@@ -70,6 +70,7 @@ export default function Footer() {
                         <ul className="footer-widget-two-list-icon">
                             <li><i className="fas fa-map-marker-alt"></i> <span>15 – Vaishnavdevi Ideal Home, B R Park Road, Jahangirabad, Surat,Gujarat – 395005</span></li>
                             <li><i className="fas fa-envelope"></i> <span><a href="mailto:info@gbsgemslab.com" style={{color:'#54545f'}}>info@gbsgemslab.com</a></span> </li>
+                            <li><i className="fas fa-phone"></i><span><a href="tel:+9033600020" style={{color:'#54545f'}}>+91-9033600020</a></span> </li>
                             <li><i className="fas fa-phone"></i><span><a href="tel:+9157600020" style={{color:'#54545f'}}>+91-9157600020</a></span> </li>
                         </ul>
                         <ul className="social-icon d-flex flex-start">

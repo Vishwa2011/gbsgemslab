@@ -6,43 +6,44 @@ import {  Autoplay } from "swiper/modules";
 
 export default function Testimonial() {
   const testimonials = [
-    {
-      text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      name: "Juwel Khan",
-      desig: "Web Developer",
-      img: "assets/images/testimonial/user-2.png",
-    },
-    {
-      text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      name: "Jenny Jess",
-      desig: "Designer",
-      img: "assets/images/testimonial/user-3.png",
-    },
-    {
-      text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-      name: "Swift Kayu",
-      desig: "Web Developer",
-      img: "assets/images/testimonial/user-4.png",
-    },
-        {
-      text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      name: "Juwel Khan",
-      desig: "Web Developer",
-      img: "assets/images/testimonial/user-2.png",
-    },
-    {
-      text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      name: "Jenny Jess",
-      desig: "Designer",
-      img: "assets/images/testimonial/user-3.png",
-    },
-    {
-      text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-      name: "Swift Kayu",
-      desig: "Web Developer",
-      img: "assets/images/testimonial/user-4.png",
-    },
-  ];
+  {
+    text: "GBS Gems provided exceptional service and accurate gemstone testing. Highly recommended!",
+    name: "Juwel Khan",
+    desig: "Web Developer",
+    img: "assets/images/testimonial/user-2.png",
+  },
+  {
+    text: "The team’s expertise and professionalism made the process smooth and reliable.",
+    name: "Jenny Jess",
+    desig: "Designer",
+    img: "assets/images/testimonial/user-3.png",
+  },
+  {
+    text: "Fast, trustworthy, and detailed reports. Truly a leader in gem testing services.",
+    name: "Swift Kayu",
+    desig: "Web Developer",
+    img: "assets/images/testimonial/user-4.png",
+  },
+  {
+    text: "Accurate analysis and excellent customer support. I’m impressed with their service!",
+    name: "Juwel Khan",
+    desig: "Web Developer",
+    img: "assets/images/testimonial/user-2.png",
+  },
+  {
+    text: "Professional guidance and reliable results every time. Highly satisfied with GBS Gems.",
+    name: "Jenny Jess",
+    desig: "Designer",
+    img: "assets/images/testimonial/user-3.png",
+  },
+  {
+    text: "The reports were clear, detailed, and delivered on time. Exceptional experience!",
+    name: "Swift Kayu",
+    desig: "Web Developer",
+    img: "assets/images/testimonial/user-4.png",
+  },
+];
+
 
   return (
     <div className="section-padding testimonial-two scene">
