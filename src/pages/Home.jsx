@@ -139,14 +139,16 @@ export default function Home() {
                 <div className="slidertwo-leftimg">
                   <div className="img-one">
                     <img
-                      src="assets/images/slider/slider-2-1.png"
+                      src="/assets/images/NewImg/sliderr1.jpg"
                       alt="ShapeImage"
+                      style={{borderRadius:"100%"}}
                     />
                   </div>
                   <div className="img-two">
                     <img
-                      src="assets/images/slider/slider-2-3.png"
+                      src="/assets/images/NewImg/slider2.jpg"
                       alt="ShapeImage"
+                       style={{borderRadius:"100%"}}
                     />
                   </div>
                 </div>
@@ -171,20 +173,23 @@ export default function Home() {
                 <div className="slidertwo-rightimg">
                   <div className="img-one">
                     <img
-                      src="assets/images/slider/slider-2-2.png"
+                      src="/assets/images/NewImg/sli3.jpg"
                       alt="ShapeImage"
+                            style={{borderRadius:"100%"}}
                     />
                   </div>
                   <div className="img-two">
                     <img
-                      src="assets/images/slider/slider-2-4.png"
+                      src="/assets/images/NewImg/slider4.jpg"
                       alt="ShapeImage"
+                            style={{borderRadius:"100%"}}
                     />
                   </div>
                   <div className="img-three">
                     <img
-                      src="assets/images/slider/slider-2-5.png"
+                      src="/assets/images/NewImg/slider5.jpg"
                       alt="ShapeImage"
+                            style={{borderRadius:"100%"}}
                     />
                   </div>
                 </div>
@@ -310,14 +315,16 @@ export default function Home() {
                 <div className="slidertwo-leftimg">
                   <div className="img-one">
                     <img
-                      src="assets/images/slider/slider-2-1.png"
+                      src="/assets/images/NewImg/slideeee.jpg"
                       alt="ShapeImage"
+                        style={{borderRadius:"100%"}}
                     />
                   </div>
                   <div className="img-two">
                     <img
-                      src="assets/images/slider/slider-2-3.png"
+                      src="/assets/images/NewImg/slide2-1.jpg"
                       alt="ShapeImage"
+                        style={{borderRadius:"100%"}}
                     />
                   </div>
                 </div>
@@ -342,20 +349,23 @@ export default function Home() {
                 <div className="slidertwo-rightimg">
                   <div className="img-one">
                     <img
-                      src="assets/images/slider/slider-2-2.png"
+                       src="/assets/images/NewImg/slider2-3.jpg"
                       alt="ShapeImage"
+                        style={{borderRadius:"100%"}}
                     />
                   </div>
                   <div className="img-two">
                     <img
-                      src="assets/images/slider/slider-2-4.png"
+                      src="/assets/images/NewImg/slider-24.jpg"
                       alt="ShapeImage"
+                        style={{borderRadius:"100%"}}
                     />
                   </div>
                   <div className="img-three">
                     <img
-                      src="assets/images/slider/slider-2-5.png"
+                      src="/assets/images/NewImg/sliderr7.jpg"
                       alt="ShapeImage"
+                        style={{borderRadius:"100%"}}
                     />
                   </div>
                 </div>
