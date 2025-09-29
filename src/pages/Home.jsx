@@ -4,6 +4,9 @@ import Footer from "./Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay  } from "swiper/modules";
 import Testimonial from "./Testimonial";
+import Counter from './Counter' 
+import WhyChoose from "./WhyChoose";
+import Brands from "./Brands";
 export default function Home() {  
   return (
     <div>
@@ -14,7 +17,8 @@ export default function Home() {
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true, el: ".slidertwo-pagination" }}
-        autoplay={{ delay: 7000 }}
+        // autoplay={{ delay: 7000 }}
+         autoplay={{ delay: 60000, disableOnInteraction: false }}
         loop={true}
         className="slidertwo animation-style-02"
       >
@@ -157,7 +161,7 @@ export default function Home() {
                     Authenticity You Trust
                   </h2>
                   <p className="mb-30 text-center">Diamond & Gems testing Laboratary Rudraksh Research Centre. </p>
-                  <a href="/" className="btn-style-one">
+                  <a href="/Contact" className="btn-style-one">
                     <span>Read More</span>
                   </a>
                 </div>
@@ -328,7 +332,7 @@ export default function Home() {
                     Precision in Every Test
                   </h2>
                   <p className="mb-30 text-center">Accurate and reliable testing of diamonds and gemstones.</p>
-                  <a href="contact.html" className="btn-style-one">
+                  <a href="/Contact" className="btn-style-one">
                     <span>Read More</span>
                   </a>
                 </div>
@@ -553,55 +557,7 @@ export default function Home() {
       {/* <!-- About Section Start --> */}
 
     {/* <!-- Funfact Section Start --> */}
-    <div 
-  className="section-padding funfact" 
-  style={{ backgroundImage: "url('/assets/images/funfact/funfact-bg.png')" }}
->
-
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    {/* <!-- Heading Start --> */}
-                    <div className="heading-one">
-                        <span className="heading-one-subtitle">We are Avers</span>
-                        <h2 className="heading-one-title">We Are Leading The Industry</h2>
-                        <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor inci didunt ut labore et dolore.</p>
-                    </div>
-                    {/* <!-- Heading End --> */}
-                </div>
-                <div className="col-lg-6">
-                    <div className="about-counter">
-                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <div className="funfact-inner">
-                                <span className="odometer" data-count-to="20"></span>
-                            </div>
-                            <span className="about-counter-title">Worldwide <br /> Countries</span>
-                        </div>
-                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-                            <div className="funfact-inner">
-                                <span className="odometer" data-count-to="50"></span>
-                            </div>
-                            <span className="about-counter-title">Popular <br /> Products</span>
-                        </div>
-                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <div className="funfact-inner">
-                                <span className="odometer" data-count-to="5"></span>
-                                <span className="niktext">K</span>
-                            </div>
-                            <span className="about-counter-title">Direct <br  /> Clients</span>
-                        </div>
-                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-                            <div className="funfact-inner">
-                                <span className="odometer" data-count-to="80"></span>
-                                <span className="niktext">K</span>
-                            </div>
-                            <span className="about-counter-title">Successfull <br /> Projects</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Counter />
     {/* <!-- Funfact Section End --> */}
 
       {/* <!-- Service Two Section Start --> */}
@@ -915,108 +871,105 @@ export default function Home() {
 
       {/* <!-- Choose us Section Start --> */}
       <div className="why-choose-us section-margin-top">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="why-choose-us_inner">
-                <div
-                  className="why-choose-us_content wow fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay=".1s"
-                >
-                  <div className="heading-one">
-                    <span className="heading-one-subtitle">Why Choose Us</span>
-                    <h2 className="heading-one-title">Fast & Easy Solutions</h2>
-                    <p>
-                      Kimod tempoer incididunt onomes sundo ritoma amar Lorem
-                      ipsum dolor sit amet, con-sectetur adipisicing elit,
-                    </p>
-                  </div>
-                </div>
-
-                <ul className="why-choose-us_list">
-                  <li
-                    className="why-choose-us_list__single wow fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay=".1s"
-                  >
-                    <span className="check-icon">
-                      <img src="assets/images/icon/check.png" alt="check" />
-                    </span>
-                    <div className="check-content">
-                      <h4 className="check-content_title">
-                        Secure Business Solutions
-                      </h4>
-                      <p className="check-content_text">
-                        Kimod tempoer incididunt onomes sundo ritoma am ons
-                        ectetur adip
-                      </p>
-                    </div>
-                  </li>
-                  <li
-                    className="why-choose-us_list__single wow fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay=".3s"
-                  >
-                    <span className="check-icon">
-                      <img src="assets/images/icon/check.png" alt="check" />
-                    </span>
-                    <div className="check-content">
-                      <h4 className="check-content_title">
-                        Help from Expert Consutant
-                      </h4>
-                      <p className="check-content_text">
-                        Kimod tempoer incididunt onomes sundo ritoma am ons
-                        ectetur adip
-                      </p>
-                    </div>
-                  </li>
-                  <li
-                    className="why-choose-us_list__single wow fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay=".5s"
-                  >
-                    <span className="check-icon">
-                      <img src="assets/images/icon/check.png" alt="check" />
-                    </span>
-                    <div className="check-content">
-                      <h4 className="check-content_title">Full Featured Report</h4>
-                      <p className="check-content_text">
-                        Kimod tempoer incididunt onomes sundo ritoma am ons
-                        ectetur adip
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="why-choose-us_shape scene">
-          <img
-            className="shape shape1 wow fadeInUp"
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-12">
+        <div className="why-choose-us_inner">
+          <div
+            className="why-choose-us_content wow fadeInUp"
             data-wow-duration="1.5s"
             data-wow-delay=".1s"
-            src="assets/images/choose/circle.png"
-            alt="shape"
-          />
-          <img
-            className="shape shape2"
-            src="assets/images/choose/shape1.png"
-            alt="shape"
-          />
-          <img
-            data-depth="0.20"
-            className="shape shape3"
-            src="assets/images/choose/shape2.png"
-            alt="shape"
-          />
+          >
+            <div className="heading-one">
+              <span className="heading-one-subtitle">Why Choose Us</span>
+              <h2 className="heading-one-title"> Reliable Solutions</h2>
+              <p>
+                We deliver top-notch services tailored to your business needs,
+                ensuring efficiency, security, and expert guidance every step of the way.
+              </p>
+            </div>
+          </div>
+
+          <ul className="why-choose-us_list">
+            <li
+              className="why-choose-us_list__single wow fadeInUp"
+              data-wow-duration="1.5s"
+              data-wow-delay=".1s"
+            >
+              <span className="check-icon">
+                <img src="assets/images/icon/check.png" alt="check" />
+              </span>
+              <div className="check-content">
+                <h4 className="check-content_title">Secure & Trusted Solutions</h4>
+                <p className="check-content_text">
+                  Protect your business with our secure and reliable services designed to minimize risk.
+                </p>
+              </div>
+            </li>
+
+            <li
+              className="why-choose-us_list__single wow fadeInUp"
+              data-wow-duration="1.5s"
+              data-wow-delay=".3s"
+            >
+              <span className="check-icon">
+                <img src="assets/images/icon/check.png" alt="check" />
+              </span>
+              <div className="check-content">
+                <h4 className="check-content_title">Expert Guidance & Support</h4>
+                <p className="check-content_text">
+                  Get professional advice from our experienced consultants to make informed business decisions.
+                </p>
+              </div>
+            </li>
+
+            <li
+              className="why-choose-us_list__single wow fadeInUp"
+              data-wow-duration="1.5s"
+              data-wow-delay=".5s"
+            >
+              <span className="check-icon">
+                <img src="assets/images/icon/check.png" alt="check" />
+              </span>
+              <div className="check-content">
+                <h4 className="check-content_title">Comprehensive Reporting</h4>
+                <p className="check-content_text">
+                  Receive detailed reports and insights to track your business performance and growth effectively.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div className="why-choose-us_shape scene">
+    <img
+      className="shape shape1 wow fadeInUp"
+      data-wow-duration="1.5s"
+      data-wow-delay=".1s"
+      src="assets/images/choose/circle.png"
+      alt="shape"
+    />
+    <img
+      className="shape shape2"
+      src="assets/images/choose/shape1.png"
+      alt="shape"
+    />
+    <img
+      data-depth="0.20"
+      className="shape shape3"
+      src="assets/images/choose/shape2.png"
+      alt="shape"
+    />
+  </div>
+    </div>
+
       {/* <!-- Choose us Section end --> */}
 
       {/* <!-- Team Two Section Start --> */}
-      <div className="team-two section-margin-top">
+      <div className="team-two section-margin-top section-padding-bottom" >
         <div className="team-two_shape scene">
           <img
             className="shape shape1 wow fadeInUp"
@@ -1099,16 +1052,14 @@ export default function Home() {
               data-wow-delay=".3s"
             >
               <div className="heading-one">
-                <span className="heading-one-subtitle">We are really great</span>
-                <h2 className="heading-one-title">Amazing Team Members</h2>
+                <span className="heading-one-subtitle">Gem Insights</span>
+                <h2 className="heading-one-title">GemStone Overview </h2>
                 <p>
-                  Kimod tempoer incididunt onomes sundo ritoma amar orem is psum
-                  dolor sit amet, consectetur adipisicing elitsed do eiusm od
-                  tempor inci didunt
+               Gemstones are a smart investment that has attracted people for centuries. Gemstones not only have a rich history and represent power, but they are eye-catching beauties, and are treasured collectables. The integrity of these precious stones is important to our gemstones dealers, as much as the seamless process of purchasing them. Whatever your reasons are for investing in gemstones, we’re dedicated to ensuring you get a quality selection to choose from and that you’re satisfied with your experience.
                 </p>
-                <a href="about.html" className="btn-style-one">
+                {/* <a href="about.html" className="btn-style-one">
                   <span>View Members</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -1116,111 +1067,14 @@ export default function Home() {
       </div>
       {/* <!-- Team Two Section End --> */}
 
+      <WhyChoose />
+
       {/* <!-- Testimonial Section Start --> */}
         <Testimonial />
       {/* <!-- Testimonial Section End --> */}
 
       {/* <!-- Brand Section Start --> */}
-      <div className="brand-four">
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-12 wow fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay=".1s"
-            >
-              <div className="brand-slider brand-style swiper">
-                <div className="swiper-wrapper">
-                  <div className="swiper-slide">
-                    <a className="brand-after" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/1.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                    <a className="brand-before" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/1-1.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                  </div>
-                  <div className="swiper-slide">
-                    <a className="brand-after" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/2.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                    <a className="brand-before" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/2-1.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                  </div>
-                  <div className="swiper-slide">
-                    <a className="brand-after" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/3.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                    <a className="brand-before" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/3-1.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                  </div>
-                  <div className="swiper-slide">
-                    <a className="brand-after" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/4.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                    <a className="brand-before" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/4-1.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                  </div>
-                  <div className="swiper-slide">
-                    <a className="brand-after" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/5.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                    <a className="brand-before" href=" ">
-                      <img
-                        src="assets/images/brand/brand-three/5-1.png"
-                        alt="Brand-Image"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="shape shape-1 wow zoomIn"
-          data-wow-duration="1.5s"
-          data-wow-delay=".1s"
-        >
-          <img src="assets/images/brand/brand-three/circle.png" alt="Circle" />
-        </div>
-        <div
-          className="shape shape-2 wow zoomIn"
-          data-wow-duration="1.5s"
-          data-wow-delay=".3s"
-        >
-          <img src="assets/images/brand/brand-three/circle2.png" alt="Circle" />
-        </div>
-      </div>
+     <Brands />
       {/* <!-- Brand Section End --> */}
 
       {/* <!-- Home Contact Form Start --> */}
@@ -1237,8 +1091,7 @@ export default function Home() {
                   <h4 className="subtitle">Contact Us</h4>
                   <h2 className="title">Stay Connected with Us</h2>
                   <p>
-                    Kimod tempoer incididunt onomes sundo ritoma amar Lorem
-                    ipsum dolor sit amet, consectetur
+                    Stay connected with us to receive the latest updates, news, offers, and exclusive insights daily.
                   </p>
                   <ul className="home-contact_info">
                     <li>
@@ -1247,8 +1100,8 @@ export default function Home() {
                       </div>
                       <div className="details">
                         <h5 className="details-title">Call Us</h5>
-                        <a href="tel:123-456-789" className="details-text">
-                          +880 1234 5678
+                        <a href="tel:+9157600020" className="details-text">
+                          +91-9157600020
                         </a>
                       </div>
                     </li>
@@ -1258,8 +1111,8 @@ export default function Home() {
                       </div>
                       <div className="details">
                         <h5 className="details-title">Email Us</h5>
-                        <a href="mailto:hello@avers.com" className="details-text">
-                          hello@avers.com
+                        <a href="mailto:info@gbsgemslab.com" className="details-text">
+                          info@gbsgemslab.com
                         </a>
                       </div>
                     </li>
@@ -1312,128 +1165,120 @@ export default function Home() {
       {/* <!-- Home Contact Form End --> */}
  
       {/* <!-- Home Blog Section Start --> */}
-      <div className="section-margin blog-post-two scene">
-        <div className="container mb-n30">
-          <div className="row">
-            <div
-              className="col-12 wow fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay=".1s"
-            >
-              <div className="heading-one text-center">
-                <span className="heading-one-subtitle">From Our Blog</span>
-                <h2 className="heading-one-title">News & Updates</h2>
-                <p>
-                  Kimod tempoer incididunt onomes sundo ritoma amar porem ipsum
-                  dolor sit amet, consectetur adipisicing
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1">
-            <div
-              className="col mb-30 wow fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay=".1s"
-            >
-              <div className="blog-grid-single">
-                <div className="blog-grid-image ">
-                  <a href="blog-details.html" className="blogpost-image">
-                    <img
-                      src="assets/images/blog/home-blog1.png"
-                      alt="BlogImage"
-                    />
-                  </a>
-                  <div className="blog-grid-image-thumb">
-                    <span className="date">14</span>
-                    <span className="text">Apr</span>
-                  </div>
-                </div>
-                <div className="blog-grid-content">
-                  <span className="subtitle">Business</span>
-                  <h4 className="title">
-                    <a href="blog-details.html">
-                      Dalia enim ad minim veniam quis nostrud exercitation
-                    </a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col mb-30 wow fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay=".3s"
-            >
-              <div className="blog-grid-single">
-                <div className="blog-grid-image">
-                  <a href="blog-details.html" className="blogpost-image">
-                    <img
-                      src="assets/images/blog/home-blog2.png"
-                      alt="BlogImage"
-                    />
-                  </a>
-                  <div className="blog-grid-image-thumb">
-                    <span className="date">14</span>
-                    <span className="text">Apr</span>
-                  </div>
-                </div>
-                <div className="blog-grid-content">
-                  <span className="subtitle">Business</span>
-                  <h4 className="title">
-                    <a href="blog-details.html">
-                      Dalia enim ad minim veniam quis nostrud exercitation
-                    </a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col mb-30 wow fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay=".5s"
-            >
-              <div className="blog-grid-single">
-                <div className="blog-grid-image">
-                  <a href="blog-details.html" className="blogpost-image">
-                    <img
-                      src="assets/images/blog/home-blog3.png"
-                      alt="BlogImage"
-                    />
-                  </a>
-                  <div className="blog-grid-image-thumb">
-                    <span className="date">14</span>
-                    <span className="text">Apr</span>
-                  </div>
-                </div>
-                <div className="blog-grid-content">
-                  <span className="subtitle">Business</span>
-                  <h4 className="title">
-                    <a href="blog-details.html">
-                      Dalia enim ad minim veniam quis nostrud exercitation
-                    </a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="shape shape-1 wow fadeInUp"
-          data-wow-duration="1.5s"
-          data-wow-delay=".1s"
-        >
-          <img src="assets/images/blog/shape/shape1.png" alt="Circle" />
-        </div>
-        <div className="shape shape-2" data-depth="0.06">
-          <img src="assets/images/blog/shape/shape2.png" alt="Circle" />
-        </div>
-        <div className="shape shape-3" data-depth="0.06">
-          <img src="assets/images/blog/shape/shape3.png" alt="Circle" />
+<div className="section-margin blog-post-two scene">
+  <div className="container mb-n30">
+    <div className="row">
+      <div
+        className="col-12 wow fadeInUp"
+        data-wow-duration="1.5s"
+        data-wow-delay=".1s"
+      >
+        <div className="heading-one text-center">
+          <span className="heading-one-subtitle">From Our Blog</span>
+          <h2 className="heading-one-title">Latest Insights & Updates</h2>
+          <p>
+            Discover industry trends, tips, and insights from our experts to stay ahead in business and technology.
+          </p>
         </div>
       </div>
+    </div>
+
+    <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1">
+      <div
+        className="col mb-30 wow fadeInUp"
+        data-wow-duration="1.5s"
+        data-wow-delay=".1s"
+      >
+        <div className="blog-grid-single">
+          <div className="blog-grid-image">
+            <a href="/Blog" className="blogpost-image">
+              <img src="assets/images/blog/home-blog1.png" alt="BlogImage" />
+            </a>
+            <div className="blog-grid-image-thumb">
+              <span className="date">14</span>
+              <span className="text">Apr</span>
+            </div>
+          </div>
+          <div className="blog-grid-content">
+            <span className="subtitle">Gem Insights</span>
+            <h4 className="title">
+              <a href="/Blog">
+                How to Identify Authentic Gemstones: A Beginner's Guide
+              </a>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="col mb-30 wow fadeInUp"
+        data-wow-duration="1.5s"
+        data-wow-delay=".3s"
+      >
+        <div className="blog-grid-single">
+          <div className="blog-grid-image">
+            <a href="/Blog" className="blogpost-image">
+              <img src="assets/images/blog/home-blog2.png" alt="BlogImage" />
+            </a>
+            <div className="blog-grid-image-thumb">
+              <span className="date">10</span>
+              <span className="text">Mar</span>
+            </div>
+          </div>
+          <div className="blog-grid-content">
+            <span className="subtitle">Business</span>
+            <h4 className="title">
+              <a href="/Blog">
+                5 Tips to Ensure Quality Testing for Your Gemstone Business
+              </a>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="col mb-30 wow fadeInUp"
+        data-wow-duration="1.5s"
+        data-wow-delay=".5s"
+      >
+        <div className="blog-grid-single">
+          <div className="blog-grid-image">
+            <a href="/Blog" className="blogpost-image">
+              <img src="assets/images/blog/home-blog3.png" alt="BlogImage" />
+            </a>
+            <div className="blog-grid-image-thumb">
+              <span className="date">22</span>
+              <span className="text">Feb</span>
+            </div>
+          </div>
+          <div className="blog-grid-content">
+            <span className="subtitle">Trends</span>
+            <h4 className="title">
+              <a href="/Blog">
+                Emerging Trends in the Gemstone Market You Should Know About
+              </a>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    className="shape shape-1 wow fadeInUp"
+    data-wow-duration="1.5s"
+    data-wow-delay=".1s"
+  >
+    <img src="assets/images/blog/shape/shape1.png" alt="Circle" />
+  </div>
+  <div className="shape shape-2" data-depth="0.06">
+    <img src="assets/images/blog/shape/shape2.png" alt="Circle" />
+  </div>
+  <div className="shape shape-3" data-depth="0.06">
+    <img src="assets/images/blog/shape/shape3.png" alt="Circle" />
+  </div>
+</div>
+
       {/* <!-- Home Blog Section End --> */}
 
       {/* footer start  */}

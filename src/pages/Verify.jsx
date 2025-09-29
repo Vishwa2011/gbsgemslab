@@ -17,7 +17,8 @@ export default function Verify() {
                                     <button><img src="assets/images/icon/icon-6.png" alt="IconImage" /></button>
                                 </form>
                              <div class="header-right_button header-button">
-                                    <a href="/" class="btn-style-one"><span>Back To Home</span></a>
+                                    <a href="#" class="btn-style-one m-2"><span>Submit</span></a>
+                                    <a href="/" class="btn-style-one m-2"><span>Back To Home</span></a>
                                 </div>
                         </div>
                         {/* <!-- Heading End --> */}

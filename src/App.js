@@ -10,6 +10,9 @@ import Contact from './pages/Contact';
 import { FaWhatsapp } from 'react-icons/fa'; 
 
 
+import Blog from './pages/Blog';
+
+
 function App() {
 
   useEffect(() => {
@@ -52,6 +55,9 @@ function App() {
         <Route path='/Services' element={<Services/>}/>
         <Route path='/Verify' element={<Verify/>}/>
         <Route path='/Contact' element={<Contact/>}/>
+
+        
+        <Route path='/Blog' element={<Blog/>}/>
       </Routes>
    <a 
        href="https://wa.me/919265407449"
