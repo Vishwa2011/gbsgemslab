@@ -7,6 +7,8 @@ import 'animate.css';
 import Services from './pages/Services';
 import Verify from './pages/Verify';
 import Contact from './pages/Contact';
+import { FaWhatsapp } from 'react-icons/fa'; 
+
 
 function App() {
 
@@ -51,7 +53,14 @@ function App() {
         <Route path='/Verify' element={<Verify/>}/>
         <Route path='/Contact' element={<Contact/>}/>
       </Routes>
-
+   <a 
+       href="https://wa.me/919265407449"
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="whatsapp-button"
+    >
+      <FaWhatsapp size={30} />
+    </a>
        <a href=" " className="scroll-top show" id="scroll-top">
         <i className="arrow-top fas fa-angle-double-up"></i>
         <i className="arrow-bottom fas fa-angle-double-up"></i>

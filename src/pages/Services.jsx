@@ -133,7 +133,7 @@ export default function Services() {
     {/* <!-- Service Section End --> */}
   
         {/* <!-- System Section Start --> */}
-    <div className="system">
+    {/* <div className="system">
         <div className="container">
             <div className="row">
                 <div className="col-lg-5">
@@ -190,7 +190,7 @@ export default function Services() {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
     {/* <!-- System Section End --> */}
 
         {/* <!-- Strategy Section Start --> */}
@@ -200,9 +200,9 @@ export default function Services() {
                 <div className="col-lg-6">
 
                     <div className="heading-one wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
-                        <span className="heading-one-subtitle">Design matters</span>
-                        <h2 className="heading-one-title">A Great Create Develop</h2>
-                        <p>Kimod tempoer incididunt onomes sundo ritoma amar porem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua.</p>
+                        <span className="heading-one-subtitle">SPIRITUAL MATTERS </span>
+                        <h2 className="heading-one-title">A Great Create & Bless</h2>
+                        <p>Gemstones and Rudraksh bring divine energy, purity, and harmony into life. Our carefully selected gemstones and authentic Rudraksh are meant to fill your journey with peace, prosperity, and positivi</p>
                     </div>
 
                 </div>
@@ -214,8 +214,8 @@ export default function Services() {
                                 <img src="assets/images/icon/icon-6.png" alt="Icon" />
                             </div>
                             <div className="strategy-two-content">
-                                <h4 className="title">Design and Develop</h4>
-                                <p>Kimod tempoer incididunt ono mes sundo ritom nim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <h4 className="title">Energized Gemstones  </h4>
+                                <p>Each gemstone carries unique cosmic energy that helps remove planetary obstacles, attract wealth, and bring happiness. Our gemstones are 100% authentic and energized, chosen according to your specific needs.</p>
                             </div>
                         </div>
 
@@ -224,8 +224,8 @@ export default function Services() {
                                 <img src="assets/images/icon/icon-7.png" alt="Icon" />
                             </div>
                             <div className="strategy-two-content">
-                                <h4 className="title">Design and Develop</h4>
-                                <p>Kimod tempoer incididunt ono mes sundo ritom nim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <h4 className="title">Sacred Rudraksh</h4>
+                                <p>Rudraksh is a divine blessing that provides peace, focus, and protection. Our Rudraksh are certified and spiritually energized through proper rituals, helping you strengthen your spiritual and personal growth.</p>
                             </div>
                         </div>
 
@@ -234,8 +234,8 @@ export default function Services() {
                                 <img src="assets/images/icon/icon-8.png" alt="Icon" />
                             </div>
                             <div className="strategy-two-content">
-                                <h4 className="title">Design and Develop</h4>
-                                <p>Kimod tempoer incididunt ono mes sundo ritom nim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <h4 className="title">Personalized Guidance</h4>
+                                <p>Our expert astrologers recommend gemstones and Rudraksh based on your birth chart, ensuring perfect balance and results. With personal guidance, we provide you with the right divine solution for your life.</p>
                             </div>
                         </div>
 
