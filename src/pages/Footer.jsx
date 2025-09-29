@@ -106,8 +106,8 @@ export default function Footer() {
                             <div className="widget-list-single">
                                 <h5 className="footer-widget-two-title">Policy</h5>
                                 <ul className="footer-widget-two-list">
-                                    <li><a href="/">Privacy Policy</a></li>
-                                    <li><a href="/">Term & Conditions Policy</a></li>
+                                    <li><a href="/Privacypolicy">Privacy Policy</a></li>
+                                    <li><a href="/Termsandcondition">Term & Conditions Policy</a></li>
                                 </ul>
                             </div>
                         </div>
