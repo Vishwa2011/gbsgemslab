@@ -58,6 +58,7 @@ body {
 
 img {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 a,
@@ -1465,7 +1466,7 @@ hr {
 .header-four {
   background-color: #fff;
   padding-top: 20px;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 999;
 }

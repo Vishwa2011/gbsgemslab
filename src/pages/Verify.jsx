@@ -16,18 +16,18 @@ export default function Verify() {
                                     <input type="text" placeholder="Enter Stock Code" />
                                     <button><img src="assets/images/icon/icon-6.png" alt="IconImage" /></button>
                                 </form>
-                             <div class="header-right_button header-button">
-                                    <a href="#" class="btn-style-one m-2"><span>Submit</span></a>
-                                    <a href="/" class="btn-style-one m-2"><span>Back To Home</span></a>
+                             <div className="header-right_button header-button d-flex flex-wrap">
+                                    <a href="#" className="btn-style-one m-2"><span>Submit</span></a>
+                                    <a href="/" className="btn-style-one m-2"><span>Back To Home</span></a>
                                 </div>
                         </div>
                         {/* <!-- Heading End --> */}
                       
                     </div>
                 </div>
-                <div className="col-lg-3 order-1 order-lg-2 custom-margin">
+                <div className="col-lg-3 order-1 order-lg-2 custom-margin ">
                     <div className="progress-image">
-                        <img src="/assets/images/NewImg/verify.jpg" style={{borderRadius:'10px'}} alt="progress" sizes='646*633' />
+                        <img src="/assets/images/NewImg/verify.jpg" alt="progress" sizes='646*633' />
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function Blog() {
 
         
     {/* <!-- Breadcrumb Section Start --> */}
- <div className="section-padding breadcrumb" style={{ backgroundImage: "url('assets/images/breadcrumb/breadcrumb-1.png')" }} >
+ <div className="section-padding breadcrumb" style={{ backgroundImage: "url('https://png.pngtree.com/background/20250226/original/pngtree-gleaming-round-diamonds-positioned-against-a-stylish-black-background-stunning-3d-picture-image_13269374.jpg')" }} >
         <div className="container">
             <div className="row">
                 <div className="col-12 align-items-center text-center">
@@ -35,7 +35,7 @@ export default function Blog() {
   <div className="col mb-30 wow fadeIn" data-wow-duration="1.1s" data-wow-delay="0.01s">
     <div className="blog-grid-single">
       <div className="blog-grid-image">
-        <a href="/BlogDetails"><img src="assets/images/blog/grid-1.png" alt="BlogImage" /></a>
+        <a href="/BlogDetails"><img src="assets/images/NewImg/blog1.webp" alt="BlogImage" sizes='370*227'/></a>
         <div className="blog-grid-image-thumb">
           <span className="date">14</span>
           <span className="text">Sep</span>
@@ -52,7 +52,7 @@ export default function Blog() {
   <div className="col mb-30 wow fadeIn" data-wow-duration="1.1s" data-wow-delay="0.02s">
     <div className="blog-grid-single">
       <div className="blog-grid-image">
-        <a href="/BlogDetails"><img src="assets/images/blog/grid-2.png" alt="BlogImage" /></a>
+        <a href="/BlogDetails"><img src="assets/images/NewImg/blog2.jpg" alt="BlogImage" /></a>
         <div className="blog-grid-image-thumb">
           <span className="date">10</span>
           <span className="text">Sep</span>
@@ -69,7 +69,7 @@ export default function Blog() {
   <div className="col mb-30 wow fadeIn" data-wow-duration="1.1s" data-wow-delay="0.03s">
     <div className="blog-grid-single">
       <div className="blog-grid-image">
-        <a href="/BlogDetails"><img src="assets/images/blog/grid-3.png" alt="BlogImage" /></a>
+        <a href="/BlogDetails"><img src="assets/images/NewImg/bloggg3.jpg" alt="BlogImage" /></a>
         <div className="blog-grid-image-thumb">
           <span className="date">05</span>
           <span className="text">Sep</span>
@@ -86,7 +86,7 @@ export default function Blog() {
   <div className="col mb-30 wow fadeIn" data-wow-duration="1.1s" data-wow-delay="0.04s">
     <div className="blog-grid-single">
       <div className="blog-grid-image">
-        <a href="/BlogDetails"><img src="assets/images/blog/grid-4.png" alt="BlogImage" /></a>
+        <a href="/BlogDetails"><img src="/assets/images/NewImg/blog44.jpg" alt="BlogImage" /></a>
         <div className="blog-grid-image-thumb">
           <span className="date">01</span>
           <span className="text">Sep</span>
@@ -103,7 +103,7 @@ export default function Blog() {
   <div className="col mb-30 wow fadeIn" data-wow-duration="1.1s" data-wow-delay="0.05s">
     <div className="blog-grid-single">
       <div className="blog-grid-image">
-        <a href="/BlogDetails"><img src="assets/images/blog/grid-5.png" alt="BlogImage" /></a>
+        <a href="/BlogDetails"><img src="/assets/images/NewImg/blog4.jpg" alt="BlogImage" /></a>
         <div className="blog-grid-image-thumb">
           <span className="date">28</span>
           <span className="text">Aug</span>
@@ -120,7 +120,7 @@ export default function Blog() {
   <div className="col mb-30 wow fadeIn" data-wow-duration="1.1s" data-wow-delay="0.06s">
     <div className="blog-grid-single">
       <div className="blog-grid-image">
-        <a href="/BlogDetails"><img src="assets/images/blog/grid-6.png" alt="BlogImage" /></a>
+        <a href="/BlogDetails"><img src="/assets/images/NewImg/blog6.jpg" alt="BlogImage" /></a>
         <div className="blog-grid-image-thumb">
           <span className="date">20</span>
           <span className="text">Aug</span>

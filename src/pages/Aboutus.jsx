@@ -54,7 +54,7 @@ const Aboutus = () => {
                 <div className="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
                     {/* <!-- Heading Start --> */}
                     <div className="heading-one">
-                        <span className="heading-one-subtitle">We are Avers</span>
+                        <span className="heading-one-subtitle">We are GBS Gems</span>
                         <h2 className="heading-one-title">About Us</h2>
 
                         <div className="about-two-text">
@@ -63,9 +63,15 @@ const Aboutus = () => {
                       <p style={{textAlign:"justify"}} >
                         We Don’t Sale any Gem, Rudraksh and related products !! We just Test them in our Well Established Lab and provide you report on basis of its quality. We also provide a certificate with all Tested Gems, Rudraksh and related product. This certificate can also be checked on our website to confirm the originality of it.
                       </p>
-                      <ul>
-                        <li style={{listStyle:'inside'}}>Special Prices for Bulk Testing of Products.</li>
-                        <li style={{listStyle:'inside'}}>Special Brand Name Box Packing available</li>
+                      <ul className="service-details-content-list">
+                          <li>
+                              <img src="assets/images/icon/checked.png" alt="CheckIcon" />
+                              <p>Special Prices for Bulk Testing of Products.</p>
+                          </li>
+                          <li>
+                              <img src="assets/images/icon/checked.png" alt="CheckIcon" />
+                              <p>Special Brand Name Box Packing available</p>
+                          </li>
                       </ul>
                         </div>
                     </div>
@@ -100,7 +106,7 @@ const Aboutus = () => {
                     <div className="about-creative-details">
                         {/* <!-- Heading Start --> */}
                         <div className="heading-one">
-                            <span className="heading-one-subtitle">Design matters</span>
+                            <span className="heading-one-subtitle">Trusted Excellence</span>
                             <h2 className="heading-one-title">About GBS Gems </h2>
                             <p>I also want to thank you for you swift, professional, informative and friendly service, it is refreshing and comforting to know that there are people out there that you can trust and who care about the service that they give as well the quality of the product that they sell.</p>
                         </div>
@@ -147,7 +153,7 @@ const Aboutus = () => {
                 <div className="col-12 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                     {/* <!-- Heading Start --> */}
                     <div className="heading-one">
-                        <span className="heading-one-subtitle">Design matters</span>
+                        <span className="heading-one-subtitle">Our Experts</span>
                         <h2 className="heading-one-title">Amazing Team Members </h2>
                     </div>
                     {/* <!-- Heading End --> */}

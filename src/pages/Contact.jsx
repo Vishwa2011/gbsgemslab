@@ -8,7 +8,7 @@ export default function Contact() {
       <Navbar />
 
       {/* <!-- Breadcrumb Section Start --> */}
-    <div className="section-padding breadcrumb" style={{ backgroundImage: "url('assets/images/breadcrumb/breadcrumb-1.png')" }} >
+    <div className="section-padding breadcrumb" style={{ backgroundImage: "url('https://png.pngtree.com/background/20250226/original/pngtree-gleaming-round-diamonds-positioned-against-a-stylish-black-background-stunning-3d-picture-image_13269374.jpg')" }} >
         <div className="container">
             <div className="row">
                 <div className="col-12 align-items-center text-center">

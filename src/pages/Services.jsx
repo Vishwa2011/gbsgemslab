@@ -7,8 +7,9 @@ export default function Services() {
     <div>
       <Navbar />
       
-        {/* <!-- Breadcrumb Section Start --> */}
-    <div className="section-padding breadcrumb" style={{ backgroundImage: "url('assets/images/breadcrumb/breadcrumb-2.png')" }}>
+        {/* <!-- Breadcrumb Section Start --> */} 
+        {/* img size 1920*536 */}
+    <div className="section-padding breadcrumb" style={{ backgroundImage: "url('https://png.pngtree.com/background/20250226/original/pngtree-gleaming-round-diamonds-positioned-against-a-stylish-black-background-stunning-3d-picture-image_13269374.jpg')" }}>
         <div className="container">
             <div className="row">
                 <div className="col-12 align-items-center text-center">
@@ -34,7 +35,7 @@ export default function Services() {
                     <div className="service-single">
                         <div className="service-single-image">
                             <div className="service-single-image-thumb">
-                                <img src="assets/images/service/service4.png" alt="ServiceImage" />
+                                <img src="/assets/images/NewImg/service1.jpg" alt="ServiceImage" sizes='370*384'/>
                             </div>
                             <div className="service-single-image-content">
                                 <div className="icon">
@@ -58,7 +59,7 @@ export default function Services() {
                     <div className="service-single">
                         <div className="service-single-image">
                             <div className="service-single-image-thumb">
-                                <img src="assets/images/service/service1.png" alt="ServiceImage" />
+                                <img src="/assets/images/NewImg/service2.jpg" alt="ServiceImage" />
                             </div>
                             <div className="service-single-image-content">
                                 <div className="icon">
@@ -82,7 +83,7 @@ export default function Services() {
                     <div className="service-single">
                         <div className="service-single-image">
                             <div className="service-single-image-thumb">
-                                <img src="assets/images/service/service2.png" alt="ServiceImage" />
+                                <img src="/assets/images/NewImg/service3.jpg" alt="ServiceImage" />
                             </div>
                             <div className="service-single-image-content">
                                 <div className="icon">
@@ -106,7 +107,7 @@ export default function Services() {
                     <div className="service-single">
                         <div className="service-single-image">
                             <div className="service-single-image-thumb">
-                                <img src="assets/images/service/service3.png" alt="ServiceImage" />
+                                <img src="/assets/images/NewImg/service4.jpg" alt="ServiceImage" />
                             </div>
                             <div className="service-single-image-content">
                                 <div className="icon">

@@ -8,7 +8,7 @@ export default function BlogDetails() {
       <Navbar />
 
             {/* <!-- Breadcrumb Section Start --> */}
-    <div className="section-padding breadcrumb" style={{ backgroundImage: "url('assets/images/breadcrumb/breadcrumb-1.png')" }} >
+    <div className="section-padding breadcrumb" style={{ backgroundImage: "url('https://png.pngtree.com/background/20250226/original/pngtree-gleaming-round-diamonds-positioned-against-a-stylish-black-background-stunning-3d-picture-image_13269374.jpg')" }} >
         <div className="container">
             <div className="row">
                 <div className="col-12 align-items-center text-center">
@@ -36,7 +36,7 @@ export default function BlogDetails() {
                 <div className="standard-blog-single blog-details">
 
                     <a href=" " className="standard-blog-image">
-                        <img src="assets/images/blog/large-1.png" alt="BlogImage" />
+                        <img src="/assets/images/NewImg/bd1.jpg" alt="BlogImage" sizes='770*420'/>
                     </a>
 
                     <div className="standard-blog-content">
@@ -103,7 +103,7 @@ export default function BlogDetails() {
 
                 <div className="entry-author wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
                     <div className="thumb">
-                        <img src="assets/images/blog/details/auth-1.png" alt="Author-image" />
+                        <img src="/assets/images/NewImg/user.jpg" alt="Author-image" />
                     </div>
                     <div className="content">
                         <div className="head">
@@ -127,7 +127,7 @@ export default function BlogDetails() {
                         <li className="comment-inner">
                             <div className="comment-1">
                                 <div className="comment-thumb">
-                                    <img src="assets/images/blog/details/auth-2.png" alt="Author-Image" />
+                                    <img src="/assets/images/NewImg/user.jpg" alt="Author-Image" />
                                 </div>
                                 <div className="comment-content">
                                     <div className="comment-head">
@@ -148,7 +148,7 @@ export default function BlogDetails() {
                         <li className="comment-inner">
                             <div className="comment-1">
                                 <div className="comment-thumb">
-                                    <img src="assets/images/blog/details/auth-4.png" alt="Author-Image" />
+                                    <img src="/assets/images/NewImg/user.jpg" alt="Author-Image" />
                                 </div>
                                 <div className="comment-content">
                                     <div className="comment-head">
@@ -169,7 +169,7 @@ export default function BlogDetails() {
                         <li className="comment-inner">
                             <div className="comment-1">
                                 <div className="comment-thumb">
-                                    <img src="assets/images/blog/details/auth-5.png" alt="Author-Image" />
+                                    <img src="/assets/images/NewImg/user.jpg" alt="Author-Image" />
                                 </div>
                                 <div className="comment-content">
                                     <div className="comment-head">
@@ -235,21 +235,21 @@ export default function BlogDetails() {
                         <h4 className="sidebar-title">Recent Posts <i className="fas fa-angle-double-right"></i></h4>
                         <ul className="sidebar-blog">
                             <li>
-                                <a href=" " className="image"><img src="assets/images/blog/small/1.png" alt="Blog Post" /></a>
+                                <a href=" " className="image"><img src="/assets/images/NewImg/footer1.jpg" alt="Blog Post" /></a>
                                 <div className="content">
                                     <span className="date">25 Feb 2025</span>
                                     <a className="title" href=" ">Top Gemstones to Invest In This Year</a>
                                 </div>
                             </li>
                             <li>
-                                <a href=" " className="image"><img src="assets/images/blog/small/2.png" alt="Blog Post" /></a>
+                                <a href=" " className="image"><img src="/assets/images/NewImg/footer3.jpg" alt="Blog Post" /></a>
                                 <div className="content">
                                     <span className="date">24 Jun 2025</span>
                                     <a className="title" href=" ">How to Care for Rudraksha Beads</a>
                                 </div>
                             </li>
                             <li>
-                                <a href=" " className="image"><img src="assets/images/blog/small/3.png" alt="Blog Post" /></a>
+                                <a href=" " className="image"><img src="/assets/images/NewImg/footer6.jpg" alt="Blog Post" /></a>
                                 <div className="content">
                                     <span className="date">26 Apr 2025</span>
                                     <a className="title" href=" ">Gemstone Certification Explained</a>
@@ -287,25 +287,25 @@ export default function BlogDetails() {
                         <ul className="sidebar-instagram">
                             <li>
                                 <a href="#">
-                                    <img src="assets/images/blog/gallery/1.png" alt="Gallery-Image" />
+                                    <img src="/assets/images/NewImg/footer4.jpg" alt="Gallery-Image" />
                                     <div className="add-action"><i className="fab fa-instagram"></i></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/images/blog/gallery/2.png" alt="Gallery-Image" />
+                                    <img src="/assets/images/NewImg/footer5.jpg" alt="Gallery-Image" />
                                     <div className="add-action"><i className="fab fa-instagram"></i></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/images/blog/gallery/3.png" alt="Gallery-Image" />
+                                    <img src="/assets/images/NewImg/footer6.jpg" alt="Gallery-Image" />
                                     <div className="add-action"><i className="fab fa-instagram"></i></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/images/blog/gallery/4.png" alt="Gallery-Image" />
+                                    <img src="/assets/images/NewImg/footer1.jpg" alt="Gallery-Image" />
                                     <div className="add-action"><i className="fab fa-instagram"></i></div>
                                 </a>
                             </li>
@@ -317,7 +317,7 @@ export default function BlogDetails() {
                         <div className="sidebar-feature">
                             <div className="sidebar-feature-image">
                                 <a href=" ">
-                                    <img src="assets/images/blog/feature-sidebar.png" alt="Featured Post" />
+                                    <img src="/assets/images/NewImg/blog1.webp" alt="Featured Post" />
                                 </a>
                             </div>
                             <div className="sidebar-feature-content">
