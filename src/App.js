@@ -14,7 +14,7 @@ import Blog from './pages/Blog';
 
 
 function App() {
-
+        
   useEffect(() => {
    
     const wow = new WOW({       

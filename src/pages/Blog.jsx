@@ -31,7 +31,7 @@ export default function Blog() {
         <div className="container">
             <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n30">
                 <div className="col mb-30 wow fadeIn" data-wow-duration="1.1s" data-wow-delay="0.01s">
-
+ 
                     <div className="blog-grid-single">
                         <div className="blog-grid-image">
                             <a href="blog-details.html"><img src="assets/images/blog/grid-1.png" alt="BlogImage" /></a>
