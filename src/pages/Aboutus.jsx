@@ -11,7 +11,7 @@ const Aboutus = () => {
       <Navbar />
          <div>
               {/* <!-- Breadcrumb Section Start --> */}
- <div className="section-padding breadcrumb" style={{ backgroundImage: "url('assets/images/breadcrumb/breadcrumb-2.png')" }}>
+ <div className="section-padding breadcrumb" style={{ backgroundImage: "url('https://png.pngtree.com/background/20250226/original/pngtree-gleaming-round-diamonds-positioned-against-a-stylish-black-background-stunning-3d-picture-image_13269374.jpg')" }}>
         <div className="container">
             <div className="row">
                 <div className="col-12 align-items-center text-center">
@@ -38,7 +38,7 @@ const Aboutus = () => {
                     {/* <!-- About Images Start --> */}
                     <div className="about-two-images me-0">
                       <div className="about-two-images-one">
-    <img className="js-tilt" src="assets/images/about/about-4.png" alt="QualityImage" />
+    <img className="js-tilt" src="/assets/images/NewImg/about1.png" alt="QualityImage" sizes='418*546' />
     <div className="about-two-images-thumb gradient-2">
         <span className="text">Since</span>
         <span className="date">1948</span>
@@ -46,7 +46,7 @@ const Aboutus = () => {
 </div>
 
                         <div className="about-two-images-two">
-                            <img className="js-tilt" src="assets/images/about/about-5.png" alt="QualityImage" />
+                            <img className="js-tilt" src="/assets/images/NewImg/about2.jpg" alt="QualityImage" sizes='255*324' />
                         </div>
                     </div>
                     {/* <!-- About Images End --> */}
@@ -88,10 +88,10 @@ const Aboutus = () => {
                     {/* <!-- About Creative Image Start --> */}
                     <div className="about-creative-images">
                         <div className="image-one"> 
-                            <img src="assets/images/about/creative-one.png" alt="AboutImage" />
+                            <img src="/assets/images/NewImg/about3.jpg" alt="AboutImage" sizes='418*468'/>
                         </div>
                         <div className="image-two">
-                            <img src="assets/images/about/creative-two.png" alt="AboutImage" />
+                            <img src="/assets/images/NewImg/about4.png" alt="AboutImage" sizes='444*614'/>
                         </div>
                     </div>
                     {/* <!-- About Creative Image End --> */}
@@ -118,13 +118,13 @@ const Aboutus = () => {
                                 <div className="tab-pane fade show active" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
                                     <div className="nav-content-inner">
                                         <p>Our mission is to provide authentic, certified gemstones and Rudraksh that enhance lives with positive energy, prosperity, and spiritual well-being. We are committed to guiding our customers with trust, transparency, and personalized recommendatio</p>
-                                        <img src="assets/images/about/mission.png" alt="Image" />
+                                        <img src="/assets/images/NewImg/mission.png" alt="Image" sizes='238*133'/>
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
                                     <div className="nav-content-inner">
                                         <p>Our vision is to be a trusted global name in gemstones and Rudraksh by blending ancient wisdom with modern authenticity. We aim to spread the power of divine energy, making spiritual growth, peace, and success accessible to everyone.</p>
-                                        <img src="assets/images/about/mission.png" alt="Image" />
+                                        <img src="/assets/images/NewImg/vision.jpg" alt="Image" />
                                     </div>
                                 </div>
                               
@@ -157,7 +157,7 @@ const Aboutus = () => {
                 <div className="col mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                     <div className="single-team">
                         <div className="single-team-image">
-                            <img src="assets/images/team/1.png" alt="TeamImage" />
+                            <img src="/assets/images/NewImg/team1.jpg" alt="TeamImage" sizes='270*336' />
                         </div>
                         <div className="single-team-content">
                             <a href="contact.html"><span className="name">Minhaz Mohsin</span></a>
@@ -179,7 +179,7 @@ const Aboutus = () => {
                 <div className="col mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
                     <div className="single-team">
                         <div className="single-team-image">
-                            <img src="assets/images/team/2.png" alt="TeamImage" />
+                            <img src="/assets/images/NewImg/team2.jpg" alt="TeamImage" sizes='270*336' />
                         </div>
                         <div className="single-team-content">
                             <a href="contact.html"><span className="name">John Jessy</span></a>
@@ -201,10 +201,10 @@ const Aboutus = () => {
                 <div className="col mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".5s">
                     <div className="single-team">
                         <div className="single-team-image">
-                            <img src="assets/images/team/3.png" alt="TeamImage" />
+                            <img src="/assets/images/NewImg/team3.jpg" alt="TeamImage" />
                         </div>
                         <div className="single-team-content">
-                            <a href="contact.html"><span className="name">Jenny Alex</span></a>
+                            <a href="contact.html"><span className="name">Jenny Patel</span></a>
                             <span className="desig">Team Leader</span>
                             <ul className="single-team-social">
                                 <li>
@@ -223,10 +223,10 @@ const Aboutus = () => {
                 <div className="col mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".7s">
                     <div className="single-team">
                         <div className="single-team-image">
-                            <img src="assets/images/team/4.png" alt="TeamImage" />
+                            <img src="/assets/images/NewImg/team4.jpg" alt="TeamImage" />
                         </div>
                         <div className="single-team-content">
-                            <a href="contact.html"><span className="name">Hizz Lui</span></a>
+                            <a href="contact.html"><span className="name">Helly Shah</span></a>
                             <span className="desig">Designer</span>
                             <ul className="single-team-social">
                                 <li>

@@ -64,7 +64,7 @@ export default function Footer() {
                     <div className="footer-widget-two">
                         <div className="logo negative-margin">
                             <a href="index-2.html">
-                                <img src="assets/images/logo-2.png" alt="" />
+                                <img src="/assets/images/NewImg/LOGO.png" alt="" />
                             </a>
                         </div>
                         <ul className="footer-widget-two-list-icon">
@@ -145,7 +145,7 @@ export default function Footer() {
                         <ul className="instagrm">
                             <li>
                                 <a href=" ">
-                                    <img src="assets/images/blog/gallery/1.png" alt="Insta-Image" />
+                                    <img src="/assets/images/NewImg/footer1.jpg" alt="Insta-Image" sizes='96*96'/>
                                     <div className="add-action">
                                         <i className="fab fa-instagram"></i>
                                     </div>
@@ -153,7 +153,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a href=" ">
-                                    <img src="assets/images/blog/gallery/2.png" alt="Insta-Image" />
+                                    <img src="/assets/images/NewImg/footer2.jpg" alt="Insta-Image" />
                                     <div className="add-action">
                                         <i className="fab fa-instagram"></i>
                                     </div>
@@ -161,7 +161,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a href=" ">
-                                    <img src="assets/images/blog/gallery/3.png" alt="Insta-Image" />
+                                    <img src="/assets/images/NewImg/footer3.jpg" alt="Insta-Image" />
                                     <div className="add-action">
                                         <i className="fab fa-instagram"></i>
                                     </div>
@@ -169,7 +169,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a href=" ">
-                                    <img src="assets/images/blog/gallery/4.png" alt="Insta-Image" />
+                                    <img src="/assets/images/NewImg/footer4.jpg" alt="Insta-Image" />
                                     <div className="add-action">
                                         <i className="fab fa-instagram"></i>
                                     </div>
@@ -177,7 +177,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a href=" ">
-                                    <img src="assets/images/blog/gallery/5.png" alt="Insta-Image" />
+                                    <img src="/assets/images/NewImg/footer5.jpg" alt="Insta-Image" />
                                     <div className="add-action">
                                         <i className="fab fa-instagram"></i>
                                     </div>
@@ -185,7 +185,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a href=" ">
-                                    <img src="assets/images/blog/gallery/6.png" alt="Insta-Image" />
+                                    <img src="/assets/images/NewImg/footer6.jpg" alt="Insta-Image" />
                                     <div className="add-action">
                                         <i className="fab fa-instagram"></i>
                                     </div>

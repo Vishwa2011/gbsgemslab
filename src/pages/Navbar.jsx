@@ -64,7 +64,7 @@ export default function Navbar() {
                         {/* <!-- Header Logo Start --> */}
                         <div className="logo">
                             <a href="/">
-                                <img className="logo-2" src="assets/images/logo-2.png" alt="logoImage" />
+                                <img className="logo-2" src="/assets/images/NewImg/LOGO.png" alt="logoImage" />
                             </a>
                         </div>
                         {/* <!-- Header Logo End --> */}
