@@ -166,8 +166,8 @@ const Aboutus = () => {
                             <img src="/assets/images/NewImg/team1.jpg" alt="TeamImage" sizes='270*336' />
                         </div>
                         <div className="single-team-content">
-                            <a href="contact.html"><span className="name">Minhaz Mohsin</span></a>
-                            <span className="desig">Founder & CEO</span>
+                        <a href="contact.html"><span className="name">Rohit Sharma</span></a>
+<span className="desig">Founder & CEO</span>  
                             <ul className="single-team-social">
                                 <li>
                                     <a href="https://www.facebook.com/" className="facebook"><i className="fab fa-facebook-f"></i></a>
@@ -188,8 +188,8 @@ const Aboutus = () => {
                             <img src="/assets/images/NewImg/team2.jpg" alt="TeamImage" sizes='270*336' />
                         </div>
                         <div className="single-team-content">
-                            <a href="contact.html"><span className="name">John Jessy</span></a>
-                            <span className="desig">Head of Ideas</span>
+                        <a href="contact.html"><span className="name">Amit Patel</span></a>
+<span className="desig">Head of Gems Lab</span>
                             <ul className="single-team-social">
                                 <li>
                                     <a href="https://www.facebook.com/" className="facebook"><i className="fab fa-facebook-f"></i></a>
@@ -210,8 +210,8 @@ const Aboutus = () => {
                             <img src="/assets/images/NewImg/team3.jpg" alt="TeamImage" />
                         </div>
                         <div className="single-team-content">
-                            <a href="contact.html"><span className="name">Jenny Patel</span></a>
-                            <span className="desig">Team Leader</span>
+                           <a href="contact.html"><span className="name">Sneha Verma</span></a>
+<span className="desig">Team Leader</span>
                             <ul className="single-team-social">
                                 <li>
                                     <a href="https://www.facebook.com/" className="facebook"><i className="fab fa-facebook-f"></i></a>
@@ -232,8 +232,8 @@ const Aboutus = () => {
                             <img src="/assets/images/NewImg/team4.jpg" alt="TeamImage" />
                         </div>
                         <div className="single-team-content">
-                            <a href="contact.html"><span className="name">Helly Shah</span></a>
-                            <span className="desig">Designer</span>
+                           <a href="contact.html"><span className="name">Priya Singh</span></a>
+<span className="desig">Senior Gemstone Tester</span>
                             <ul className="single-team-social">
                                 <li>
                                     <a href="https://www.facebook.com/" className="facebook"><i className="fab fa-facebook-f"></i></a>

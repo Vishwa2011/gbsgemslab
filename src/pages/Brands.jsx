@@ -37,24 +37,7 @@ export default function Brands() {
   return (
     <div className="brand-four">
       <div className="container">
-        <div className="row">
-          <div className="col-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-            <div className="brand-slider brand-style swiper">
-              <div className="swiper-wrapper">
-                {brandImages.map((brand, index) => (
-                  <div className="swiper-slide" key={index}>
-                    <a className="brand-after" href=" ">
-                      <img src={`${brand.after}`} alt="Brand-Image" />
-                    </a>
-                    <a className="brand-before" href=" ">
-                      <img src={`/${brand.before}`} alt="Brand-Image" />
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+      
       </div>
 
       <div className="shape shape-1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".1s">

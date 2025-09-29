@@ -620,7 +620,8 @@ export default function Home() {
                 <div className="service-two-content">
                   <h4 className="title">we testing gems stone</h4>
                   <p>
-                  We testing gemstone like natural Yellow sapphire (Pukhraj),Blue sapphire (Neelam),Ruby (Manik),Emerald (Panna),Hessonite garnet (Gommed),Cat’s eye(Ketu),Pearl (Moti),Coral (Munga)etc.
+    We Testing Gemstone Like Natural Yellow Sapphire (Pukhraj), Blue Sapphire (Neelam), Ruby (Manik), Emerald (Panna), Hessonite Garnet (Gommed), Cat’s Eye (Ketu), Pearl (Moti), Coral (Munga) Etc.
+
                   </p>
                 </div>
               </div>
@@ -643,7 +644,8 @@ export default function Home() {
                 <div className="service-two-content">
                   <h4 className="title">we testing diamond jewellery</h4>
                   <p>
-                   We testing Diamond Jewellery like test by clarity F L, I F, V V S I-V V S 2, V S 2, S I 1-V S 2, S I 1-S S 2, I 1, I 2, I 3 & test colour in D to Z, we also test nose pin, ring, earing, pendant, bracelet, bangle’s, necklace etc.
+                  We Testing Diamond Jewellery Like Test By Clarity F L, I F, V V S I-V V S 2, V S 2, S I 1-V S 2, S I 1-S S 2, I 1, I 2, I 3 & Test Colour In D To Z, We Also Test Nose Pin, Ring, Earing, Pendant, Bracelet, Bangle’s, Necklace Etc.
+
                   </p>
                 </div>
               </div>
@@ -666,7 +668,8 @@ export default function Home() {
                 <div className="service-two-content">
                   <h4 className="title">we testing rudraksh</h4>
                   <p>
-                   We testing Rudraksh like test X-ray based testing & conform to how many natural face & seeds in Rudraksh. Testing IN 1 TO 21 mukhi ganesh, gaurisankar, trijeurti, nirakar, ekavinshat etc.
+                We Testing Rudraksh Like Test X-Ray Based Testing & Conform To How Many Natural Face & Seeds In Rudraksh. Testing In 1 To 21 Mukhi Ganesh, Gaurisankar, Trijeurti, Nirakar, Ekavinshat Etc.
+
                   </p>
                 </div>
               </div>
@@ -689,7 +692,8 @@ export default function Home() {
                 <div className="service-two-content">
                   <h4 className="title">we testing gemstone & rudraksh mala</h4>
                   <p>
-                   We testing Rudraksh mala like test X-ray based testing in rudraksh mala & gemstone like crystal (Sphatik), coral (Munga), dyad coral, dyad quartaz, navratna (Navgrah), pearl (Moti), crystal, mala etc.
+                   We Testing Rudraksh Mala Like Test X-Ray Based Testing In Rudraksh Mala & Gemstone Like Crystal (Sphatik), Coral (Munga), Dyad Coral, Dyad Quartaz, Navratna (Navgrah), Pearl (Moti), Crystal, Mala Etc.
+
                   </p>
                 </div>
               </div>
@@ -742,6 +746,7 @@ export default function Home() {
                     src="https://ethemestudio.com/demo/avers/assets/images/support/support-man.png"
                     alt="SupportMan"
                     sizes="589*652"
+                    style={{width:'85%'}}
                   />
                 </div>
                 <div className="support-shape-one">
@@ -880,7 +885,7 @@ export default function Home() {
       {/* <!-- Speciality Section End --> */}
 
       {/* <!-- Choose us Section Start --> */}
-      <div className="why-choose-us section-margin-top">
+    <div className="why-choose-us section-margin-top">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
@@ -892,10 +897,9 @@ export default function Home() {
           >
             <div className="heading-one">
               <span className="heading-one-subtitle">Why Choose Us</span>
-              <h2 className="heading-one-title"> Reliable Solutions</h2>
+              <h4 className="heading-one-title">Reliable Gem & Rudraksh Solutions</h4>
               <p>
-                We deliver top-notch services tailored to your business needs,
-                ensuring efficiency, security, and expert guidance every step of the way.
+                We provide authentic gemstone and Rudraksh testing services, ensuring quality, accuracy, and expert guidance for your spiritual and investment needs.
               </p>
             </div>
           </div>
@@ -910,9 +914,9 @@ export default function Home() {
                 <img src="assets/images/icon/check.png" alt="check" />
               </span>
               <div className="check-content">
-                <h4 className="check-content_title">Secure & Trusted Solutions</h4>
+                <h4 className="check-content_title">Authentic & Certified Testing</h4>
                 <p className="check-content_text">
-                  Protect your business with our secure and reliable services designed to minimize risk.
+                  Ensure your gemstones and Rudraksh beads are genuine with our certified lab testing and detailed reports.
                 </p>
               </div>
             </li>
@@ -926,9 +930,9 @@ export default function Home() {
                 <img src="assets/images/icon/check.png" alt="check" />
               </span>
               <div className="check-content">
-                <h4 className="check-content_title">Expert Guidance & Support</h4>
+                <h4 className="check-content_title">Expert Guidance & Consultation</h4>
                 <p className="check-content_text">
-                  Get professional advice from our experienced consultants to make informed business decisions.
+                  Receive professional advice on gemstone selection, Rudraksh types, and spiritual benefits from our experienced lab specialists.
                 </p>
               </div>
             </li>
@@ -942,9 +946,9 @@ export default function Home() {
                 <img src="assets/images/icon/check.png" alt="check" />
               </span>
               <div className="check-content">
-                <h4 className="check-content_title">Comprehensive Reporting</h4>
+                <h4 className="check-content_title">Detailed Reports & Transparency</h4>
                 <p className="check-content_text">
-                  Receive detailed reports and insights to track your business performance and growth effectively.
+                  Get accurate and comprehensive lab reports for every gemstone and Rudraksh tested, helping you make informed purchases with confidence.
                 </p>
               </div>
             </li>
@@ -974,7 +978,8 @@ export default function Home() {
       alt="shape"
     />
   </div>
-    </div>
+</div>
+
 
       {/* <!-- Choose us Section end --> */}
 
