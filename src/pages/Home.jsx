@@ -148,16 +148,16 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1">
+              <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1 ">
                 <div className="heading-one">
                   <span className="heading-one-subtitle gradient-text-1">
-                    We are Avers
+                   GBS GEMS
                   </span>
                   <h2 className="heading-one-title">
-                    Solution for <br /> Your Business
+                    Authenticity You Trust
                   </h2>
-                  <p className="mb-30">When the musics over turn off the light</p>
-                  <a href="contact.html" className="btn-style-one">
+                  <p className="mb-30 text-center">Diamond & Gems testing Laboratary Rudraksh Research Centre. </p>
+                  <a href="/" className="btn-style-one">
                     <span>Read More</span>
                   </a>
                 </div>
@@ -322,12 +322,12 @@ export default function Home() {
               <div className="col-12 col-lg-4 mx-auto text-center align-self-center order-lg-0 order-1">
                 <div className="heading-one">
                   <span className="heading-one-subtitle gradient-text-1">
-                    We are Avers
+                    Quality Assurance
                   </span>
                   <h2 className="heading-one-title">
-                    Solution for <br /> Your Business
+                    Precision in Every Test
                   </h2>
-                  <p className="mb-30">When the musics over turn off the light</p>
+                  <p className="mb-30 text-center">Accurate and reliable testing of diamonds and gemstones.</p>
                   <a href="contact.html" className="btn-style-one">
                     <span>Read More</span>
                   </a>
@@ -364,95 +364,93 @@ export default function Home() {
 
       {/* <!-- Strategy Section start --> */}
       <div className="section-padding-top strategy overflow-hidden">
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-12 wow fadeInUp"
-              data-wow-duration="0.9s"
-              data-wow-delay="0.1s"
-            >
-              <div className="heading-one text-center">
-                <span className="heading-one-subtitle">We are Avers</span>
-                <h2 className="heading-one-title">
-                  Business Development & Innovation
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-n30">
-            <div
-              className="col mb-30 wow fadeInBottomLeft"
-              data-wow-duration="0.9s"
-              data-wow-delay="0.1s"
-            >
-              <div className="strategy-single">
-                <div className="strategy-icon">
-                  <span></span>
-                  <img src="assets/images/icon/icon-1.png" alt="Icon" />
-                </div>
-
-                <div className="strategy-content">
-                  <h5 className="title">Business Strategy</h5>
-                  <p>
-                    Pore et dolore magna aliqua. strud exercitation laboris nisi
-                    uot aliq uip ex emattersa never{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col mb-30 wow fadeInUp"
-              data-wow-duration="0.9s"
-              data-wow-delay="0.1s"
-            >
-              <div className="strategy-single">
-                <div className="strategy-icon">
-                  <span></span>
-                  <img src="assets/images/icon/icon-2.png" alt="Icon" />
-                </div>
-
-                <div className="strategy-content">
-                  <h5 className="title">Marketing Solution</h5>
-                  <p>
-                    Pore et dolore magna aliqua. strud exercitation laboris nisi
-                    uot aliq uip ex emattersa never{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col mb-30 wow fadeInBottomRight"
-              data-wow-duration="0.9s"
-              data-wow-delay="0.1s"
-            >
-              <div className="strategy-single">
-                <div className="strategy-icon">
-                  <span></span>
-                  <img src="assets/images/icon/icon-3.png" alt="Icon" />
-                </div>
-
-                <div className="strategy-content">
-                  <h5 className="title">Report & Analytics</h5>
-                  <p>
-                    Pore et dolore magna aliqua. strud exercitation laboris nisi
-                    uot aliq uip ex emattersa never{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="container">
+    <div className="row">
+      <div
+        className="col-12 wow fadeInUp"
+        data-wow-duration="0.9s"
+        data-wow-delay="0.1s"
+      >
+        <div className="heading-one text-center">
+          <span className="heading-one-subtitle">We are GBS Gems</span>
+          <h2 className="heading-one-title">
+            Gem & Rudraksha Testing 
+          </h2>
         </div>
-        <div className="strategy-home2-shape" data-depth="0.09">
-          <div className="shape shape-1">
-            <img src="assets/images/shape/dot-1.png" alt="Shape" />
+      </div>
+    </div>
+    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-n30">
+      <div
+        className="col mb-30 wow fadeInBottomLeft"
+        data-wow-duration="0.9s"
+        data-wow-delay="0.1s"
+      >
+        <div className="strategy-single">
+          <div className="strategy-icon">
+            <span></span>
+            <img src="assets/images/icon/icon-1.png" alt="Icon" />
           </div>
-          <div className="shape shape-2">
-            <img src="assets/images/shape/shape-21.png" alt="Shape" />
+
+          <div className="strategy-content">
+            <h5 className="title">Gem Testing</h5>
+            <p>
+              Accurate testing of diamonds and gemstones to ensure authenticity and quality.
+            </p>
           </div>
         </div>
       </div>
+
+      <div
+        className="col mb-30 wow fadeInUp"
+        data-wow-duration="0.9s"
+        data-wow-delay="0.1s"
+      >
+        <div className="strategy-single">
+          <div className="strategy-icon">
+            <span></span>
+            <img src="assets/images/icon/icon-2.png" alt="Icon" />
+          </div>
+
+          <div className="strategy-content">
+            <h5 className="title">Rudraksha Verification</h5>
+            <p>
+              Expert verification of rudraksha beads with certified reports for authenticity.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="col mb-30 wow fadeInBottomRight"
+        data-wow-duration="0.9s"
+        data-wow-delay="0.1s"
+      >
+        <div className="strategy-single">
+          <div className="strategy-icon">
+            <span></span>
+            <img src="assets/images/icon/icon-3.png" alt="Icon" />
+          </div>
+
+          <div className="strategy-content">
+            <h5 className="title">Certification & Reports</h5>
+            <p>
+              Detailed certificates and reports for all tested gems and rudraksha for transparency.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="strategy-home2-shape" data-depth="0.09">
+    <div className="shape shape-1">
+      <img src="assets/images/shape/dot-1.png" alt="Shape" />
+    </div>
+    <div className="shape shape-2">
+      <img src="assets/images/shape/shape-21.png" alt="Shape" />
+    </div>
+  </div>
+</div>
+
       {/* <!-- Strategy Section end --> */}
 
       {/* <!-- About Section Start --> */}
@@ -528,9 +526,9 @@ export default function Home() {
             <div className="col-lg-6">
               <div className="heading-one">
                 <div className="wow fadeInUp" data-wow-duration="0.9s">
-                  <span className="heading-one-subtitle">We are Avers</span>
+                  <span className="heading-one-subtitle">Gems Testing</span>
                   <h2 className="heading-one-title">
-                    A Great Corporate Agency
+                    Your Trusted Validator
                   </h2>
                 </div>
                 <div
@@ -538,16 +536,12 @@ export default function Home() {
                   data-wow-duration="0.9s"
                 >
                   <p>
-                    Kimod tempoer incididunt onomes sundo ritoma amar Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eius mod tempor inci didunt ut labore et dolore.
+                We Don’t Sale any Gem, Rudraksh and related products !! We just Test them in our Well Established Lab and provide you report on basis of its quality. We also provide a certificate with all Tested Gems, Rudraksh and related product. This certificate can also be checked on our website to confirm the originality of it.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    dtempor incin poddo patar jolkobita tumi.
+                    Come and view our exciting array of Daily New Arrivals. We add new gemstones to our inventory every day, so be sure to check back frequently. These daily new arrivals may be here today, but gone tomorrow.
                   </p>
-                  <a href="contact.html" className="btn-style-one">
+                  <a href="/" className="btn-style-one">
                     <span>Learn More</span>
                   </a>
                 </div>
@@ -634,10 +628,9 @@ export default function Home() {
                 data-wow-duration="0.9s"
               >
                 <span className="heading-one-subtitle">Our Services</span>
-                <h2 className="heading-one-title">What we offer</h2>
+                <h2 className="heading-one-title"> Gem Certification</h2>
                 <p>
-                  Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum
-                  dolor sit amet, consectetur adipisicing
+                 We provide expert testing and certification for diamonds, gemstones, and rudraksh, ensuring authenticity and quality you can rely on.
                 </p>
               </div>
             </div>
@@ -649,21 +642,19 @@ export default function Home() {
                   <span className="service-two-thumb-bg"></span>
                   <img
                     className="img-gradient"
-                    src="assets/images/icon/service/icon-7.png"
+                    src="/assets/images/NewImg/gems.png"
                     alt=""
                   />
                   <img
                     className="img-white"
-                    src="assets/images/icon/service/icon-10-white.png"
+                    src="assets/images/icon/icon-6.png"
                     alt=""
                   />
                 </div>
                 <div className="service-two-content">
-                  <h4 className="title">Business Development</h4>
+                  <h4 className="title">we testing gems stone</h4>
                   <p>
-                    Pore et dolore magna aliqua. Uetom veniam qu is nostrud
-                    exercitation laboris nisi uot aliq uip ex emattersa never
-                    cared forthis.
+                  We testing gemstone like natural Yellow sapphire (Pukhraj),Blue sapphire (Neelam),Ruby (Manik),Emerald (Panna),Hessonite garnet (Gommed),Cat’s eye(Ketu),Pearl (Moti),Coral (Munga)etc.
                   </p>
                 </div>
               </div>
@@ -674,21 +665,19 @@ export default function Home() {
                   <span className="service-two-thumb-bg"></span>
                   <img
                     className="img-gradient"
-                    src="assets/images/icon/service/icon-8.png"
+                    src="/assets/images/NewImg/diamond.png"
                     alt=""
                   />
                   <img
                     className="img-white"
-                    src="assets/images/icon/service/icon-10-white.png"
+                    src="assets/images/icon/icon-6.png"
                     alt=""
                   />
                 </div>
                 <div className="service-two-content">
-                  <h4 className="title">System Automation</h4>
+                  <h4 className="title">we testing diamond jewellery</h4>
                   <p>
-                    Pore et dolore magna aliqua. Uetom veniam qu is nostrud
-                    exercitation laboris nisi uot aliq uip ex emattersa never
-                    cared forthis.
+                   We testing Diamond Jewellery like test by clarity F L, I F, V V S I-V V S 2, V S 2, S I 1-V S 2, S I 1-S S 2, I 1, I 2, I 3 & test colour in D to Z, we also test nose pin, ring, earing, pendant, bracelet, bangle’s, necklace etc.
                   </p>
                 </div>
               </div>
@@ -699,21 +688,19 @@ export default function Home() {
                   <span className="service-two-thumb-bg"></span>
                   <img
                     className="img-gradient"
-                    src="assets/images/icon/service/icon-9.png"
+                    src="/assets/images/NewImg/rudrakash.png"
                     alt=""
                   />
                   <img
                     className="img-white"
-                    src="assets/images/icon/service/icon-10-white.png"
+                    src="assets/images/icon/icon-6.png"
                     alt=""
                   />
                 </div>
                 <div className="service-two-content">
-                  <h4 className="title">Consulting & Marketing</h4>
+                  <h4 className="title">we testing rudraksh</h4>
                   <p>
-                    Pore et dolore magna aliqua. Uetom veniam qu is nostrud
-                    exercitation laboris nisi uot aliq uip ex emattersa never
-                    cared forthis.
+                   We testing Rudraksh like test X-ray based testing & conform to how many natural face & seeds in Rudraksh. Testing IN 1 TO 21 mukhi ganesh, gaurisankar, trijeurti, nirakar, ekavinshat etc.
                   </p>
                 </div>
               </div>
@@ -724,21 +711,19 @@ export default function Home() {
                   <span className="service-two-thumb-bg"></span>
                   <img
                     className="img-gradient"
-                    src="assets/images/icon/service/icon-7.png"
+                    src="/assets/images/NewImg/mala.png"
                     alt=""
                   />
                   <img
                     className="img-white"
-                    src="assets/images/icon/service/icon-10-white.png"
+                    src="assets/images/icon/icon-6.png"
                     alt=""
                   />
                 </div>
                 <div className="service-two-content">
-                  <h4 className="title">Security Management</h4>
+                  <h4 className="title">we testing gemstone & rudraksh mala</h4>
                   <p>
-                    Pore et dolore magna aliqua. Uetom veniam qu is nostrud
-                    exercitation laboris nisi uot aliq uip ex emattersa never
-                    cared forthis.
+                   We testing Rudraksh mala like test X-ray based testing in rudraksh mala & gemstone like crystal (Sphatik), coral (Munga), dyad coral, dyad quartaz, navratna (Navgrah), pearl (Moti), crystal, mala etc.
                   </p>
                 </div>
               </div>
@@ -765,17 +750,16 @@ export default function Home() {
                     Get Quick Support
                   </span>
                   <h2 className="heading-one-title">
-                    Get Help from Our Expert Now
+                    24/7 Assistance
                   </h2>
                   <p className="heading-one-text">
-                    Kimod tempoer incididunt onomes sundo ritoma amar korem
-                    ipsum dolor sit amet, consectetur adipisicing.
+                    Our dedicated team is always ready to answer your queries and provide fast, reliable support whenever you need it.
                   </p>
-                  <a href="tel:+0123456789" className="phone-call">
+                  <a href="tel:+9157600020" className="phone-call">
                     <span className="phone-icon">
                       <i className="fas fa-phone-alt"></i>
                     </span>
-                    <span className="phone-text">+880 123 456 789</span>
+                    <span className="phone-text">+91-9157600020</span>
                   </a>
 
                   <div className="support-shape-two">
@@ -789,8 +773,9 @@ export default function Home() {
                   data-wow-duration="0.7s"
                 >
                   <img
-                    src="assets/images/support/support-man.png"
+                    src="https://ethemestudio.com/demo/avers/assets/images/support/support-man.png"
                     alt="SupportMan"
+                    sizes="589*652"
                   />
                 </div>
                 <div className="support-shape-one">
@@ -811,124 +796,121 @@ export default function Home() {
 
       {/* <!-- Speciality Section Start --> */}
       <div className="speciality ">
-        <div className="container">
-          <div className="row align-items-center mb-n60">
-            <div
-              className="col-lg-6 mb-60 wow fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay=".1s"
-            >
-              <div className="speciality-image">
-                <div className="speciality-image-inner">
-                  <img
-                    className="js-tilt"
-                    src="assets/images/speciality/speciality.png"
-                    alt="speciliity"
-                  />
-                </div>
-                <div className="speciality-image-circle">
-                  <div className="circle1">
-                    <img
-                      className="wow zoomIn"
-                      data-wow-duration="1.5s"
-                      data-wow-delay=".1s"
-                      src="assets/images/speciality/circle3.png"
-                      alt="circle"
-                    />
-                  </div>
-                  <div className="circle2">
-                    <img
-                      className="wow zoomIn"
-                      data-wow-duration="1.5s"
-                      data-wow-delay=".1s"
-                      src="assets/images/speciality/circle1.png"
-                      alt="circle"
-                    />
-                  </div>
-                  <div className="circle3">
-                    <img
-                      className="wow zoomIn"
-                      data-wow-duration="1.5s"
-                      data-wow-delay=".1s"
-                      src="assets/images/speciality/circle2.png"
-                      alt="circle"
-                    />
-                  </div>
-                </div>
-              </div>
+  <div className="container">
+    <div className="row align-items-center mb-n60">
+      <div
+        className="col-lg-6 mb-60 wow fadeInUp"
+        data-wow-duration="1.5s"
+        data-wow-delay=".1s"
+      >
+        <div className="speciality-image">
+          <div className="speciality-image-inner">
+            <img
+              className="js-tilt"
+              src="assets/images/speciality/speciality.png"
+              alt="speciality"
+            />
+          </div>
+          <div className="speciality-image-circle">
+            <div className="circle1">
+              <img
+                className="wow zoomIn"
+                data-wow-duration="1.5s"
+                data-wow-delay=".1s"
+                src="assets/images/speciality/circle3.png"
+                alt="circle"
+              />
             </div>
-            <div
-              className="col-lg-6 mb-60 wow fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay=".3s"
-            >
-              <div className="heading-one">
-                <span className="heading-one-subtitle">Our Speciality</span>
-                <h2 className="heading-one-title">
-                  We Help to Build Your Brand
-                </h2>
-                <p>
-                  Kimod tempoer incididunt onomes sundo ritoma amar porem ipsum
-                  dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor inci didunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-
-              <ul className="speciality_list">
-                <li className="speciality_list__single">
-                  <span className="icon">
-                    <img
-                      src="assets/images/speciality/single1.png"
-                      alt="Icon"
-                    />
-                  </span>
-                  <div className="content">
-                    <h4 className="content_title">Design and Develop</h4>
-                    <p className="content_text">
-                      Kimod tempoer incididunt ono mes sundo ritoma amar Lorem
-                      ipsum dolor korosa
-                    </p>
-                  </div>
-                </li>
-                <li className="speciality_list__single">
-                  <span className="icon">
-                    <img
-                      src="assets/images/speciality/single2.png"
-                      alt="Icon"
-                    />
-                  </span>
-                  <div className="content">
-                    <h4 className="content_title">Sales and Marketing</h4>
-                    <p className="content_text">
-                      Kimod tempoer incididunt ono mes sundo ritoma amar Lorem
-                      ipsum dolor korosa
-                    </p>
-                  </div>
-                </li>
-              </ul>
+            <div className="circle2">
+              <img
+                className="wow zoomIn"
+                data-wow-duration="1.5s"
+                data-wow-delay=".1s"
+                src="assets/images/speciality/circle1.png"
+                alt="circle"
+              />
+            </div>
+            <div className="circle3">
+              <img
+                className="wow zoomIn"
+                data-wow-duration="1.5s"
+                data-wow-delay=".1s"
+                src="assets/images/speciality/circle2.png"
+                alt="circle"
+              />
             </div>
           </div>
         </div>
-        <div className="speciality-shape scene">
-          <img
-            data-depth="0.20"
-            className="shape shape1"
-            src="assets/images/speciality/shape1.png"
-            alt="shape"
-          />
-          <img
-            data-depth="0.20"
-            className="shape shape2"
-            src="assets/images/speciality/shape2.png"
-            alt="shape"
-          />
-          <img
-            className="shape shape3"
-            src="assets/images/speciality/shape3.png"
-            alt="shape"
-          />
-        </div>
       </div>
+      <div
+        className="col-lg-6 mb-60 wow fadeInUp"
+        data-wow-duration="1.5s"
+        data-wow-delay=".3s"
+      >
+        <div className="heading-one">
+          <span className="heading-one-subtitle">Our Speciality</span>
+          <h2 className="heading-one-title">
+            Authentic Gem Testing
+          </h2>
+          <p>
+            At GBS Gems, we provide professional testing and certification for diamonds, gemstones, and rudraksha beads, ensuring complete authenticity and quality.
+          </p>
+        </div>
+
+        <ul className="speciality_list">
+          <li className="speciality_list__single">
+            <span className="icon">
+              <img
+                src="assets/images/speciality/single1.png"
+                alt="Icon"
+              />
+            </span>
+            <div className="content">
+              <h4 className="content_title">Gemstone Analysis</h4>
+              <p className="content_text">
+                Comprehensive testing of diamonds and gemstones for clarity, quality, and authenticity.
+              </p>
+            </div>
+          </li>
+          <li className="speciality_list__single">
+            <span className="icon">
+              <img
+                src="assets/images/speciality/single2.png"
+                alt="Icon"
+              />
+            </span>
+            <div className="content">
+              <h4 className="content_title">Rudraksha Verification</h4>
+              <p className="content_text">
+                Certified verification of rudraksha beads to confirm originality and spiritual significance.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div className="speciality-shape scene">
+    <img
+      data-depth="0.20"
+      className="shape shape1"
+      src="assets/images/speciality/shape1.png"
+      alt="shape"
+    />
+    <img
+      data-depth="0.20"
+      className="shape shape2"
+      src="assets/images/speciality/shape2.png"
+      alt="shape"
+    />
+    <img
+      className="shape shape3"
+      src="assets/images/speciality/shape3.png"
+      alt="shape"
+    />
+  </div>
+</div>
+
       {/* <!-- Speciality Section End --> */}
 
       {/* <!-- Choose us Section Start --> */}

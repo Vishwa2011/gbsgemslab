@@ -5971,7 +5971,7 @@ hr {
   position: relative;
 }
 .progress-section-content {
-  background-image: url(../images/progress/progress-bg.png);
+  background-image: url(../images/work/work-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7552,7 +7552,7 @@ hr {
 .work-btn {
   display: flex;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .work-btn {
