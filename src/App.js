@@ -8,8 +8,8 @@ import Services from './pages/Services';
 import Verify from './pages/Verify';
 import Contact from './pages/Contact';
 import { FaWhatsapp } from 'react-icons/fa'; 
-
-
+import Privacypolicy from './pages/Privacypolicy';
+import Termsandcondition from './pages/Termsandcondition';
 import Blog from './pages/Blog';
 
 
@@ -55,12 +55,12 @@ function App() {
         <Route path='/Services' element={<Services/>}/>
         <Route path='/Verify' element={<Verify/>}/>
         <Route path='/Contact' element={<Contact/>}/>
-
-        
+        <Route path='/Privacypolicy' element={<Privacypolicy/>}/>
+        <Route path='/Termsandcondition' element={<Termsandcondition/>}/>
         <Route path='/Blog' element={<Blog/>}/>
       </Routes>
    <a 
-       href="https://wa.me/919265407449"
+       href="https://wa.me/+91-9157600020"
       target="_blank" 
       rel="noopener noreferrer"
       className="whatsapp-button"
