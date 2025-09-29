@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Counter from './Counter' 
+import Testimonial from './Testimonial'
 
 const Aboutus = () => {
   return (
@@ -8,7 +10,7 @@ const Aboutus = () => {
       <Navbar />
          <div>
               {/* <!-- Breadcrumb Section Start --> */}
-    <div className="section-padding breadcrumb" data-bg-image="assets/images/breadcrumb/breadcrumb-1.png">
+ <div className="section-padding breadcrumb" style={{ backgroundImage: "url('assets/images/breadcrumb/breadcrumb-2.png')" }}>
         <div className="container">
             <div className="row">
                 <div className="col-12 align-items-center text-center">
@@ -85,41 +87,31 @@ const Aboutus = () => {
                     {/* <!-- Heading Start --> */}
                     <div className="heading-one">
                         <span className="heading-one-subtitle">We are Avers</span>
-                        <h2 className="heading-one-title">We Are Leading The Industry</h2>
-                        <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor inci didunt ut labore et dolore.</p>
+                        <h2 className="heading-one-title">Leading the Industry with Innovation & Trust</h2>
+                        <p>From humble beginnings to a global presence, we’ve built a reputation for excellence. Our commitment to quality, customer satisfaction, and continuous innovation makes us a trusted partner worldwide.</p>
                     </div>
                     {/* <!-- Heading End --> */}
                 </div>
-                <div className="col-lg-6">
-                    <div className="about-counter">
-                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <div className="funfact-inner">
-                                <span className="odometer" data-count-to="20"></span>
-                            </div>
-                            <span className="about-counter-title">Worldwide <br /> Countries</span>
-                        </div>
-                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-                            <div className="funfact-inner">
-                                <span className="odometer" data-count-to="50"></span>
-                            </div>
-                            <span className="about-counter-title">Popular <br /> Products</span>
-                        </div>
-                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <div className="funfact-inner">
-                                <span className="odometer" data-count-to="5"></span>
-                                <span className="niktext">K</span>
-                            </div>
-                            <span className="about-counter-title">Direct <br  /> Clients</span>
-                        </div>
-                        <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-                            <div className="funfact-inner">
-                                <span className="odometer" data-count-to="80"></span>
-                                <span className="niktext">K</span>
-                            </div>
-                            <span className="about-counter-title">Successfull <br /> Projects</span>
-                        </div>
-                    </div>
+               <div className="col-lg-6">
+                <div className="about-counter">
+                  <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                    <Counter end={20} />
+                    <span className="about-counter-title">Worldwide <br /> Countries</span>
+                  </div>
+                  <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
+                    <Counter end={50} />
+                    <span className="about-counter-title">Popular <br /> Products</span>
+                  </div>
+                  <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                    <Counter end={5} suffix="K" />
+                    <span className="about-counter-title">Direct <br /> Clients</span>
+                  </div>
+                  <div className="about-counter-2 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
+                    <Counter end={80} suffix="K" />
+                    <span className="about-counter-title">Successfull <br /> Projects</span>
+                  </div>
                 </div>
+              </div>
             </div>
         </div>
     </div>
@@ -156,28 +148,23 @@ const Aboutus = () => {
                                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
                                     <button className="nav-link active" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="true">Our Mission</button>
                                     <button className="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision" type="button" role="tab" aria-controls="nav-vision" aria-selected="false">Our Vision</button>
-                                    <button className="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history" type="button" role="tab" aria-controls="nav-history" aria-selected="false">Our History</button>
+                         
                                 </div>
                             </nav>
                             <div className="tab-content" id="nav-tabContent">
                                 <div className="tab-pane fade show active" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
                                     <div className="nav-content-inner">
-                                        <p>Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp tetur adip isicing elit, sed do eiusm od eur sint occaecat cupida</p>
+                                        <p>Our mission is to provide authentic, certified gemstones and Rudraksh that enhance lives with positive energy, prosperity, and spiritual well-being. We are committed to guiding our customers with trust, transparency, and personalized recommendatio</p>
                                         <img src="assets/images/about/mission.png" alt="Image" />
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
                                     <div className="nav-content-inner">
-                                        <p>Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp tetur adip isicing elit, sed do eiusm od eur sint occaecat cupida</p>
+                                        <p>Our vision is to be a trusted global name in gemstones and Rudraksh by blending ancient wisdom with modern authenticity. We aim to spread the power of divine energy, making spiritual growth, peace, and success accessible to everyone.</p>
                                         <img src="assets/images/about/mission.png" alt="Image" />
                                     </div>
                                 </div>
-                                <div className="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
-                                    <div className="nav-content-inner">
-                                        <p>Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp tetur adip isicing elit, sed do eiusm od eur sint occaecat cupida</p>
-                                        <img src="assets/images/about/mission.png" alt="Image" />
-                                    </div>
-                                </div>
+                              
                             </div>
                         </div>     
                     </div>
@@ -187,6 +174,41 @@ const Aboutus = () => {
     </div>
     {/* <!-- About Creative Section End --> */}
     
+
+    <div style={{paddingBottom:'100px'}}>
+           <div className="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="tab-one">
+                <div className="container">
+                    <div className="row">
+                           <div className="col-lg-6 align-self-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+
+                            {/* <!-- About Tab Content Start --> */}
+                            <div className="heading-one">
+                                {/* <span className="heading-one-subtitle">Design Matters</span> */}
+                                <h2 className="heading-one-title" style={{marginBottom:'20px'}}>Why Choose Us</h2>
+                                <p>We know choosing the perfect gemstone is an extremely important decision. We aim to make our customer’s search as easy as possible and to educate the consumer about the differences between a natural and certified gemstone and an artificially enhanced or synthetic gem. Simply put, quality, rarity, and value are the cornerstones of our gemstone business.</p>
+                               
+                            </div>
+                            {/* <!-- About Tab Content End --> */}
+                        </div>
+              <div className="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+  <div className="row g-3">
+    <div className="col-6">
+      <img src="assets/images/about/about-1.png" alt="About Gemstone 1" className="img-fluid rounded shadow" />
+    </div>
+    <div className="col-6">
+      <img src="assets/images/about/about-2.png" alt="About Gemstone 2" className="img-fluid rounded shadow" />
+    </div>
+    {/* <div className="col-12">
+      <img src="assets/images/about/about-3.png" alt="About Gemstone 3" className="img-fluid rounded shadow" />
+    </div> */}
+  </div>
+</div>
+
+                     
+                    </div>
+                </div>
+            </div>
+    </div>
 
     {/* <!-- Team Section Start --> */}
     <div className="section-padding team-bg gradient-1">
@@ -299,102 +321,7 @@ const Aboutus = () => {
     
 
     {/* <!-- Testimonial Section Start --> */}
-    <div className="section-padding testimonial-two scene">
-        <div className="container">
-            <div className="row">
-                <div className="col-12 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    {/* <!-- Heading Start --> */}
-                    <div className="heading-one">
-                        <span className="heading-one-subtitle">Testimonials</span>
-                        <h2 className="heading-one-title">What People Say</h2>
-                    </div>
-                    {/* <!-- Heading End --> */}
-                </div>
-            </div>
-
-            <div className="row">
-                <div className="col-12 position-relative wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    <div className="testimonialtwo">
-                        <div className="swiper-wrapper">
-                            <div className="swiper-slide">
-                                {/* <!-- Testimonial Two Inner Start --> */}
-                                <div className="testimonial-two-single">
-                                    <div className="quote gradient-1">
-                                        <img src="assets/images/testimonial/quote.png" alt="QuoteIcon" />
-                                    </div>
-                                    <p className="text">Duis aute irure dolor in rep rehenderit in volup tate velit esse cillum dol ore eu fugiat nulla pariat ur. Excepteur sint occae cat cupidatat boje nakeu to chinlo na.</p>
-                                    <div className="user">
-                                        <div className="user-image">
-                                            <img src="assets/images/testimonial/user-2.png" alt="UserImage" />
-                                        </div>
-                                        <div className="user-meta">
-                                            <span className="name">Juwel Khan</span>
-                                            <p className="desig">Web Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!-- Testimonial Two Inner End --> */}
-                            </div>
-                            <div className="swiper-slide">
-                                {/* <!-- Testimonial Two Inner Start --> */}
-                                <div className="testimonial-two-single">
-                                    <div className="quote gradient-1">
-                                        <img src="assets/images/testimonial/quote.png" alt="QuoteIcon" />
-                                    </div>
-                                    <p className="text">Duis aute irure dolor in rep rehenderit in volup tate velit esse cillum dol ore eu fugiat nulla pariat ur. Excepteur sint occae cat cupidatat boje nakeu to chinlo na.</p>
-                                    <div className="user">
-                                        <div className="user-image">
-                                            <img src="assets/images/testimonial/user-3.png" alt="UserImage" />
-                                        </div>
-                                        <div className="user-meta">
-                                            <span className="name">Sinha Jabin</span>
-                                            <p className="desig">Web Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!-- Testimonial Two Inner End --> */}
-                            </div>
-                            <div className="swiper-slide">
-                                {/* <!-- Testimonial Two Inner Start --> */}
-                                <div className="testimonial-two-single">
-                                    <div className="quote gradient-1">
-                                        <img src="assets/images/testimonial/quote.png" alt="QuoteIcon" />
-                                    </div>
-                                    <p className="text">Duis aute irure dolor in rep rehenderit in volup tate velit esse cillum dol ore eu fugiat nulla pariat ur. Excepteur sint occae cat cupidatat boje nakeu to chinlo na.</p>
-                                    <div className="user">
-                                        <div className="user-image">
-                                            <img src="assets/images/testimonial/user-4.png" alt="UserImage" />
-                                        </div>
-                                        <div className="user-meta">
-                                            <span className="name">MiKe Anderson</span>
-                                            <p className="desig">Web Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!-- Testimonial Two Inner End --> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="testimonial-two-arrow">
-                        <div className="swiper-arrow-long">
-                            <div className="testimonial-slider-button-prev prev-button">
-                                <img className="arrow-1" src="assets/images/slider/arrow-1.png" alt="ArrowImage" />
-                                <img className="arrow-2" src="assets/images/slider/arrow-2.png" alt="ArrowImage" />
-                            </div>
-                            <div className="testimonial-slider-button-next next-button">
-                                <img className="arrow-1" src="assets/images/slider/arrow-1.png" alt="ArrowImage" />
-                                <img className="arrow-2" src="assets/images/slider/arrow-2.png" alt="ArrowImage" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className="shape shape-1" data-depth="0.08">
-            <img src="assets/images/shape/shape-20.png" alt="Shape" />
-        </div>
-    </div>
+    <Testimonial />
     {/* <!-- Testimonial Section End --></div> */}
          </div>
       <Footer />
