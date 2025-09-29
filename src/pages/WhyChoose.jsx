@@ -35,10 +35,10 @@ export default function WhyChoose() {
               <div className="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
   <div className="row g-3">
     <div className="col-6">
-      <img src="assets/images/about/about-1.png" alt="About Gemstone 1" className="img-fluid rounded shadow" />
+      <img src="/assets/images/NewImg/choose1.jpg" alt="About Gemstone 1" className="img-fluid rounded shadow" />
     </div>
     <div className="col-6">
-      <img src="assets/images/about/about-2.png" alt="About Gemstone 2" className="img-fluid rounded shadow" />
+      <img src="/assets/images/NewImg/choose2.webp" alt="About Gemstone 2" className="img-fluid rounded shadow" />
     </div>
     {/* <div className="col-12">
       <img src="assets/images/about/about-3.png" alt="About Gemstone 3" className="img-fluid rounded shadow" />

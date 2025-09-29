@@ -504,7 +504,7 @@ export default function Home() {
                 >
                   <img
                     className="js-tilt"
-                    src="assets/images/about/about-4.png"
+                    src="/assets/images/NewImg/home1.png"
                     alt="QualityImage"
                   />
                   <div
@@ -521,7 +521,7 @@ export default function Home() {
                 >
                   <img
                     className="js-tilt"
-                    src="assets/images/about/about-5.png"
+                       src="/assets/images/NewImg/home2.jpeg"
                     alt="QualityImage"
                   />
                 </div>
@@ -763,7 +763,7 @@ export default function Home() {
           <div className="speciality-image-inner">
             <img
               className="js-tilt"
-              src="assets/images/speciality/speciality.png"
+              src="/assets/images/NewImg/speciality.jpeg"
               alt="speciality"
             />
           </div>
@@ -1020,17 +1020,17 @@ export default function Home() {
             >
               <div className="team-two_images">
                 <img
-                  src="assets/images/team/team-two/team1.png"
+                  src="/assets/images/NewImg/amazing3.jpg"
                   alt="Team"
                   className="js-tilt image1"
                 />
                 <img
-                  src="assets/images/team/team-two/team2.png"
+                  src="/assets/images/NewImg/amzing2.webp"
                   alt="Team"
                   className="js-tilt image2"
                 />
                 <img
-                  src="assets/images/team/team-two/team3.png"
+                  src="/assets/images/NewImg/amazing1.jpg"
                   alt="Team"
                   className="js-tilt image3"
                 />
@@ -1192,7 +1192,7 @@ export default function Home() {
         <div className="blog-grid-single">
           <div className="blog-grid-image">
             <a href="/Blog" className="blogpost-image">
-              <img src="assets/images/blog/home-blog1.png" alt="BlogImage" />
+              <img src="/assets/images/NewImg/blog1.webp" alt="BlogImage" />
             </a>
             <div className="blog-grid-image-thumb">
               <span className="date">14</span>
@@ -1218,7 +1218,7 @@ export default function Home() {
         <div className="blog-grid-single">
           <div className="blog-grid-image">
             <a href="/Blog" className="blogpost-image">
-              <img src="assets/images/blog/home-blog2.png" alt="BlogImage" />
+              <img src="/assets/images/NewImg/blog2.jpg" alt="BlogImage" />
             </a>
             <div className="blog-grid-image-thumb">
               <span className="date">10</span>
@@ -1229,7 +1229,7 @@ export default function Home() {
             <span className="subtitle">Business</span>
             <h4 className="title">
               <a href="/Blog">
-                5 Tips to Ensure Quality Testing for Your Gemstone Business
+                5 Tips to Ensure Quality Testing for Your Rudraksh Business
               </a>
             </h4>
           </div>
@@ -1244,7 +1244,7 @@ export default function Home() {
         <div className="blog-grid-single">
           <div className="blog-grid-image">
             <a href="/Blog" className="blogpost-image">
-              <img src="assets/images/blog/home-blog3.png" alt="BlogImage" />
+              <img src="/assets/images/NewImg/bloggg3.jpg" alt="BlogImage" />
             </a>
             <div className="blog-grid-image-thumb">
               <span className="date">22</span>
