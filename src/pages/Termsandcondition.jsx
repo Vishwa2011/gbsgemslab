@@ -6,7 +6,7 @@ const Termsandcondition = () => {
   return (
     <>
       <Navbar />
-         <div className="section-padding breadcrumb" style={{ backgroundImage: "url('assets/images/breadcrumb/breadcrumb-2.png')" }}>
+         <div className="section-padding breadcrumb" style={{ backgroundImage: "url('https://png.pngtree.com/background/20250226/original/pngtree-gleaming-round-diamonds-positioned-against-a-stylish-black-background-stunning-3d-picture-image_13269374.jpg')" }}>
         <div className="container">
             <div className="row">
                 <div className="col-12 align-items-center text-center">
@@ -24,7 +24,7 @@ const Termsandcondition = () => {
         </div>
     </div>
 
-<section className="customer-service-area ptb-100" style={{ padding: '80px 0', backgroundColor: '#f9f9f9' }}>
+<section className="customer-service-area ptb-100 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s" style={{ padding: '80px 0', backgroundColor: '#f9f9f9' }}>
         <div className="service-two-shape scene">
           <div className="shape shape-1" data-depth="0.08">
             <img src="assets/images/shape/shape-20.png" alt="Shape" />

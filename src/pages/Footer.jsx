@@ -33,7 +33,7 @@ export default function Footer() {
                   >
                     <input type="text" placeholder="Your email here" />
                     <button>
-                      <img
+                      <img style={{borderRadius:'0px'}}
                         src="assets/images/icon/icon-5.png"
                         alt="IconImage"
                       />
@@ -101,6 +101,7 @@ export default function Footer() {
                                     <li><a href="/Aboutus">About Us</a></li>
                                     <li><a href="/Services">Services</a></li>
                                     <li><a href="/Verify">Verify Certificate</a></li>
+                                    <li><a href="/Blog">Blog</a></li>
                                     <li><a href="/Contact">Contact Us</a></li>
                                 </ul>
                             </div>

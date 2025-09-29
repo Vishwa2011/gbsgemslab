@@ -30,14 +30,14 @@ export default function Navbar() {
                 <div className="col-12">
                     <div className="header-top">
                         <div className="d-md-none d-flex align-items-center">
-                            <a className="header-top-link d-flex align-items-center gap-1 left-link" href="tel:+9157600020"><img src="assets/images/icon/social/social-icon-1.png" alt="" /></a>
-                            <a className="header-top-link d-flex align-items-center gap-1" href="mailto:info@gbsgemslab.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" /></a>
+                            <a className="header-top-link d-flex align-items-center gap-1 left-link" href="tel:+9033600020"><img src="assets/images/icon/social/social-icon-1.png" alt="" /></a>
+                            <a className="header-top-link d-flex align-items-center gap-1" href="mailto:info@gbsgemslab.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" style={{borderRadius:'0px'}} /></a>
                         </div>
                         <span className="d-none d-md-block">
-                            <a className="header-top-link d-flex align-items-center gap-1" href="tel:+9157600020"><img src="assets/images/icon/social/social-icon-1.png" alt="" /> +91-9157600020</a>
+                            <a className="header-top-link d-flex align-items-center gap-1" href="tel:+9033600020"><img src="assets/images/icon/social/social-icon-1.png" alt="" />+91-9033600020</a>
                         </span>
                         <span className="d-none d-md-block">
-                            <a className="header-top-link d-flex align-items-center gap-1" href="mailto:info@gbsgemslab.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" />info@gbsgemslab.com</a>
+                            <a className="header-top-link d-flex align-items-center gap-1" href="mailto:info@gbsgemslab.com"><img src="assets/images/icon/social/social-icon-2.png" alt="" style={{borderRadius:'0px'}}/>info@gbsgemslab.com</a>
                         </span>
                         <div>
                             <ul className="social-icon">
@@ -64,7 +64,7 @@ export default function Navbar() {
                         {/* <!-- Header Logo Start --> */}
                         <div className="logo">
                             <a href="/">
-                                <img className="logo-2" src="/assets/images/NewImg/LOGO.png" alt="logoImage" />
+                                <img className="logo-2" src="/assets/images/NewImg/LOGO.png" alt="logoImage" style={{width:'80px'}}/>
                             </a>
                         </div>
                         {/* <!-- Header Logo End --> */}
@@ -99,6 +99,9 @@ export default function Navbar() {
                                         </li>
                                         <li>
                                             <a href="/Verify">Verify Certificate</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Blog">Blog</a>
                                         </li>
                                         <li>
                                             <a href="/Contact">Contact Us</a>
@@ -188,7 +191,7 @@ export default function Navbar() {
             {/* <!-- Header Logo Start --> */}
             <div className="logo">
                 <a href="/">
-                    <img src="assets/images/logo-2.png" alt="" />
+                    <img src="/assets/images/NewImg/LOGO.png" alt="" style={{width:'80px'}}/>
                 </a>
             </div>
             {/* <!-- Header Logo End --> */}
@@ -212,6 +215,7 @@ export default function Navbar() {
                     <li><a href="/Aboutus">ABOUT US</a></li>
                     <li><a href="/Services">SERVICES</a></li>
                     <li><a href="/Verify">VERIFY CERTIFICATE</a></li>
+                    <li><a href="/Blog">BLOG</a></li>
                     <li><a href="/Contact">CONTACT US</a></li>
                     
                     {/* <li className="menu-item-has-children">
