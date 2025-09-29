@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
    
-    const wow = new WOW({
+    const wow = new WOW({       
       live: false,  
       mobile: false,
       once: true    
