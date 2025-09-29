@@ -61,7 +61,7 @@ export default function Blog() {
       <div className="blog-grid-content">
         <span className="subtitle">Rudraksha</span>
         <h4 className="title"><a href="/BlogDetails">How to Identify Genuine Rudraksha Beads</a></h4>
-        <p>Discover the key features that distinguish authentic Rudraksha beads from counterfeit ones for spiritual and personal use.</p>
+        <p>Discover the key features that distinguish authentic Rudraksha beads from counterfeit ones for spiritual  use.</p>
       </div>
     </div>
   </div>
@@ -78,7 +78,8 @@ export default function Blog() {
       <div className="blog-grid-content">
         <span className="subtitle">Gemology</span>
         <h4 className="title"><a href="/BlogDetails">Understanding Gem Certifications and Reports</a></h4>
-        <p>Everything you need to know about gemstone certifications and how to read detailed gem reports confidently.</p>
+        <p>Everything You Need To Know About Gemstone Certifications And How To Read Detailed Gem Reports Confidently And Accurately.
+</p>
       </div>
     </div>
   </div>
@@ -129,32 +130,13 @@ export default function Blog() {
       <div className="blog-grid-content">
         <span className="subtitle">Tips & Guides</span>
         <h4 className="title"><a href="/BlogDetails">Caring for Your Gemstones and Rudraksha Beads</a></h4>
-        <p>Practical care instructions to maintain the beauty, energy, and longevity of your gemstones and Rudraksha beads.</p>
+        <p>Practical care instructions to maintain the  energy, and longevity of your gemstones and Rudraksha beads.</p>
       </div>
     </div>
   </div>
 </div>
 
-            <div className="row">
-                <div className="col-12">
-
-                    <div className="d-flex justify-content-center pt-lg-2 blog-grid-pagination">
-                        <nav className="pagination-wrapper">
-                            <ul className="pagination">
-                                <li className="page-item"><a className="page-link active" href="#/">1</a></li>
-                                <li className="page-item"><a className="page-link" href="#/">2</a></li>
-                                <li className="page-item"><a className="page-link" href="#/">3</a></li>
-                                <li className="page-item">
-                                    <a className="page-link" href="#/" aria-label="Next">
-                                        <span aria-hidden="true"><i className="fas fa-long-arrow-alt-right"></i></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                </div>
-            </div>
+          
         </div>
     </div>
     {/* <!-- Blog grid Section End --> */}

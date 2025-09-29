@@ -774,7 +774,7 @@ hr {
   }
 }
 .heading-one-title {
-  font-size: 60px;
+  font-size: 49px;
   font-weight: 700;
   color: #343c55;
 }
@@ -9437,7 +9437,7 @@ hr {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 120px 0 395px;
+  padding: 50px 0 395px;
   margin-bottom: -1px;
   position: relative;
 }
@@ -14285,10 +14285,10 @@ hr {
   margin-right: 20px;
 }
 .why-choose-us_list__single .check-content_title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-us_list__single .check-content_title {
@@ -14304,6 +14304,7 @@ hr {
 }
 .why-choose-us_list__single .check-content_text {
   color: #ffffff;
+  font-size: 14px;
 }
 .why-choose-us_shape {
   position: absolute !important;
