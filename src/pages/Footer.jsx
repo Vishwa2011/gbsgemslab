@@ -114,11 +114,14 @@ export default function Footer() {
                                 </ul>
                                  <div className="header-right_button header-button mt-2">
         <button
-          className="btn-style-one"
-          onClick={() => setIsOpen(true)}
-        >
-          <span>Get A Quote</span>
-        </button>
+  className="btn-style-one"
+  onClick={() => {
+    setIsOpen(true);
+    document.body.classList.add("modal-open");
+  }}
+>
+  <span>Get A Quote</span>
+</button>
       </div>
 
        {isOpen && (

@@ -14852,6 +14852,7 @@ hr {
 /*----------------------------------------*/
 .newsletter {
   position: relative;
+   z-index: 1;      
 }
 .newsletter-wrapper {
   overflow: hidden;
@@ -15122,16 +15123,19 @@ color: #fff;
           display: flex;
           align-items: center;
           justify-content: center;
-          z-index: 999999;
+          z-index: 9999;
+          
         }
        .modal-overlay .modal-content {
-          background: #fff;
-          padding: 30px;
-          border-radius: 10px;
-          width: 400px;
-          max-width: 90%;
-          position: relative;
-        }
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  z-index: 100000;
+}
+
         .modal-overlay .close-btn {
           position: absolute;
           top: 10px;
